@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79645F221E0307DC00E724BE /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
+		79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
+		79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
+		79645F251E0307DC00E724BE /* SlideBackTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */; };
+		79645F271E030AFD00E724BE /* SwarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F261E030AFD00E724BE /* SwarmsView.swift */; };
+		79645F291E030B0C00E724BE /* SwarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F281E030B0C00E724BE /* SwarmsViewController.swift */; };
+		796590E01DE11D6500E5FE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
+		796590E51DE11D6500E5FE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
+		796590E71DE11D6500E5FE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
+		796590EA1DE11D6500E5FE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
+		796590F71DE11E0000E5FE40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
+		796590FA1DE11E4600E5FE40 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
+		796590FB1DE11E4600E5FE40 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
+		796590FE1DE11F2E00E5FE40 /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */; };
+		796590FF1DE11F2E00E5FE40 /* PushTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */; };
+		796591011DE11F5A00E5FE40 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */; };
+		796591041DE11FB000E5FE40 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591031DE11FB000E5FE40 /* User.swift */; };
+		7965911F1DE1216B00E5FE40 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591081DE1216B00E5FE40 /* SBLocalStorage.m */; };
+		796591201DE1216B00E5FE40 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */; };
+		796591211DE1216B00E5FE40 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */; };
+		796591221DE1216B00E5FE40 /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */; };
+		796591231DE1216B00E5FE40 /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */; };
+		796591241DE1216B00E5FE40 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591121DE1216B00E5FE40 /* SBTokenProvider.m */; };
+		796591251DE1216B00E5FE40 /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591141DE1216B00E5FE40 /* SBURLConnection.m */; };
+		796591261DE1216B00E5FE40 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591161DE1216B00E5FE40 /* SBConnectionString.m */; };
+		796591271DE1216B00E5FE40 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591181DE1216B00E5FE40 /* SBNotificationHub.m */; };
+		796591281DE1216B00E5FE40 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911A1DE1216B00E5FE40 /* SBRegistration.m */; };
+		796591291DE1216B00E5FE40 /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */; };
+		7965912F1DE121A600E5FE40 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
+		796591301DE121A600E5FE40 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
+		796591311DE121A600E5FE40 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
+		796591321DE121A600E5FE40 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
+		796591351DE1247600E5FE40 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
+		798815CF1E0862E1004322D7 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
+		798815D11E086337004322D7 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
+		F71C51FF4DEE4B10459F5460 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarmApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1DCF2A651B522E4F7761A4 /* Pods-SwarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.debug.xcconfig"; sourceTree = "<group>"; };
+		43C9A2772F9FE04F4D326086 /* Pods-SwarmApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.release.xcconfig"; sourceTree = "<group>"; };
+		79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransitionAnimator.swift; sourceTree = "<group>"; };
+		79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransitionAnimator.swift; sourceTree = "<group>"; };
+		79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverTransitionAnimator.swift; sourceTree = "<group>"; };
+		79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideBackTransitionAnimator.swift; sourceTree = "<group>"; };
+		79645F261E030AFD00E724BE /* SwarmsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmsView.swift; sourceTree = "<group>"; };
+		79645F281E030B0C00E724BE /* SwarmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmsViewController.swift; sourceTree = "<group>"; };
+		796590DC1DE11D6500E5FE40 /* SwarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796590DF1DE11D6500E5FE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		796590E41DE11D6500E5FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796590E61DE11D6500E5FE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796590E91DE11D6500E5FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796590EB1DE11D6500E5FE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796590F21DE11E0000E5FE40 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTransitionAnimator.swift; sourceTree = "<group>"; };
+		796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransitionAnimator.swift; sourceTree = "<group>"; };
+		796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		796591031DE11FB000E5FE40 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		796591071DE1216B00E5FE40 /* SBLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBLocalStorage.h; sourceTree = "<group>"; };
+		796591081DE1216B00E5FE40 /* SBLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBLocalStorage.m; sourceTree = "<group>"; };
+		796591091DE1216B00E5FE40 /* SBNotificationHubHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNotificationHubHelper.h; sourceTree = "<group>"; };
+		7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNotificationHubHelper.m; sourceTree = "<group>"; };
+		7965910B1DE1216B00E5FE40 /* SBRegistrationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRegistrationParser.h; sourceTree = "<group>"; };
+		7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRegistrationParser.m; sourceTree = "<group>"; };
+		7965910D1DE1216B00E5FE40 /* SBStaticHandlerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStaticHandlerResponse.h; sourceTree = "<group>"; };
+		7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStaticHandlerResponse.m; sourceTree = "<group>"; };
+		7965910F1DE1216B00E5FE40 /* SBStoredRegistrationEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStoredRegistrationEntry.h; sourceTree = "<group>"; };
+		796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStoredRegistrationEntry.m; sourceTree = "<group>"; };
+		796591111DE1216B00E5FE40 /* SBTokenProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTokenProvider.h; sourceTree = "<group>"; };
+		796591121DE1216B00E5FE40 /* SBTokenProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTokenProvider.m; sourceTree = "<group>"; };
+		796591131DE1216B00E5FE40 /* SBURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBURLConnection.h; sourceTree = "<group>"; };
+		796591141DE1216B00E5FE40 /* SBURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBURLConnection.m; sourceTree = "<group>"; };
+		796591151DE1216B00E5FE40 /* SBConnectionString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBConnectionString.h; sourceTree = "<group>"; };
+		796591161DE1216B00E5FE40 /* SBConnectionString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBConnectionString.m; sourceTree = "<group>"; };
+		796591171DE1216B00E5FE40 /* SBNotificationHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNotificationHub.h; sourceTree = "<group>"; };
+		796591181DE1216B00E5FE40 /* SBNotificationHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNotificationHub.m; sourceTree = "<group>"; };
+		796591191DE1216B00E5FE40 /* SBRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRegistration.h; sourceTree = "<group>"; };
+		7965911A1DE1216B00E5FE40 /* SBRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRegistration.m; sourceTree = "<group>"; };
+		7965911B1DE1216B00E5FE40 /* SBTemplateRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTemplateRegistration.h; sourceTree = "<group>"; };
+		7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTemplateRegistration.m; sourceTree = "<group>"; };
+		7965911D1DE1216B00E5FE40 /* WindowsAzureMessaging-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WindowsAzureMessaging-prefix.pch"; sourceTree = "<group>"; };
+		7965911E1DE1216B00E5FE40 /* WindowsAzureMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsAzureMessaging.h; sourceTree = "<group>"; };
+		7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		796591331DE121DA00E5FE40 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		796591341DE1247600E5FE40 /* Swarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swarm.swift; sourceTree = "<group>"; };
+		798815CE1E0862E1004322D7 /* SwarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmCell.swift; sourceTree = "<group>"; };
+		798815D01E086337004322D7 /* SwarmDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796590D91DE11D6500E5FE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71C51FF4DEE4B10459F5460 /* Pods_SwarmApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796590D31DE11D6500E5FE40 = {
+			isa = PBXGroup;
+			children = (
+				796590DE1DE11D6500E5FE40 /* SwarmApp */,
+				796590DD1DE11D6500E5FE40 /* Products */,
+				FF95182022D81685952AD85E /* Pods */,
+				DE513E967AB6D3D769F51905 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		796590DD1DE11D6500E5FE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796590DC1DE11D6500E5FE40 /* SwarmApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796590DE1DE11D6500E5FE40 /* SwarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				796590DF1DE11D6500E5FE40 /* AppDelegate.swift */,
+				796590E31DE11D6500E5FE40 /* Main.storyboard */,
+				796591331DE121DA00E5FE40 /* BridgingHeader.h */,
+				796591021DE11FA600E5FE40 /* Models */,
+				796590F11DE11E0000E5FE40 /* Controllers */,
+				796590F31DE11E0000E5FE40 /* Extensions */,
+				796590F41DE11E0000E5FE40 /* Services */,
+				796590F51DE11E0000E5FE40 /* Transitions */,
+				796590F61DE11E0000E5FE40 /* Views */,
+				796590E61DE11D6500E5FE40 /* Assets.xcassets */,
+				796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */,
+				796590EB1DE11D6500E5FE40 /* Info.plist */,
+				7965912A1DE121A600E5FE40 /* Fonts */,
+				796591051DE1216B00E5FE40 /* WindowsAzureMessaging */,
+			);
+			path = SwarmApp;
+			sourceTree = "<group>";
+		};
+		796590F11DE11E0000E5FE40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				796590F21DE11E0000E5FE40 /* ViewController.swift */,
+				79645F281E030B0C00E724BE /* SwarmsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		796590F31DE11E0000E5FE40 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */,
+				796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		796590F41DE11E0000E5FE40 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				798815D01E086337004322D7 /* SwarmDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		796590F51DE11E0000E5FE40 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */,
+				796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */,
+				796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */,
+				79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */,
+				79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */,
+				79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */,
+				79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		796590F61DE11E0000E5FE40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79645F261E030AFD00E724BE /* SwarmsView.swift */,
+				798815CE1E0862E1004322D7 /* SwarmCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		796591021DE11FA600E5FE40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				796591031DE11FB000E5FE40 /* User.swift */,
+				796591341DE1247600E5FE40 /* Swarm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		796591051DE1216B00E5FE40 /* WindowsAzureMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				796591061DE1216B00E5FE40 /* Helpers */,
+				796591151DE1216B00E5FE40 /* SBConnectionString.h */,
+				796591161DE1216B00E5FE40 /* SBConnectionString.m */,
+				796591171DE1216B00E5FE40 /* SBNotificationHub.h */,
+				796591181DE1216B00E5FE40 /* SBNotificationHub.m */,
+				796591191DE1216B00E5FE40 /* SBRegistration.h */,
+				7965911A1DE1216B00E5FE40 /* SBRegistration.m */,
+				7965911B1DE1216B00E5FE40 /* SBTemplateRegistration.h */,
+				7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */,
+				7965911D1DE1216B00E5FE40 /* WindowsAzureMessaging-prefix.pch */,
+				7965911E1DE1216B00E5FE40 /* WindowsAzureMessaging.h */,
+			);
+			path = WindowsAzureMessaging;
+			sourceTree = "<group>";
+		};
+		796591061DE1216B00E5FE40 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				796591071DE1216B00E5FE40 /* SBLocalStorage.h */,
+				796591081DE1216B00E5FE40 /* SBLocalStorage.m */,
+				796591091DE1216B00E5FE40 /* SBNotificationHubHelper.h */,
+				7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */,
+				7965910B1DE1216B00E5FE40 /* SBRegistrationParser.h */,
+				7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */,
+				7965910D1DE1216B00E5FE40 /* SBStaticHandlerResponse.h */,
+				7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */,
+				7965910F1DE1216B00E5FE40 /* SBStoredRegistrationEntry.h */,
+				796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */,
+				796591111DE1216B00E5FE40 /* SBTokenProvider.h */,
+				796591121DE1216B00E5FE40 /* SBTokenProvider.m */,
+				796591131DE1216B00E5FE40 /* SBURLConnection.h */,
+				796591141DE1216B00E5FE40 /* SBURLConnection.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7965912A1DE121A600E5FE40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */,
+				7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */,
+				7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */,
+				7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE513E967AB6D3D769F51905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF95182022D81685952AD85E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F1DCF2A651B522E4F7761A4 /* Pods-SwarmApp.debug.xcconfig */,
+				43C9A2772F9FE04F4D326086 /* Pods-SwarmApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796590DB1DE11D6500E5FE40 /* SwarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796590EE1DE11D6500E5FE40 /* Build configuration list for PBXNativeTarget "SwarmApp" */;
+			buildPhases = (
+				D6D548DF3284C2C23CCE543D /* [CP] Check Pods Manifest.lock */,
+				796590D81DE11D6500E5FE40 /* Sources */,
+				796590D91DE11D6500E5FE40 /* Frameworks */,
+				796590DA1DE11D6500E5FE40 /* Resources */,
+				6FF1D78B2FD68B2C598E30F3 /* [CP] Embed Pods Frameworks */,
+				AD3B00602207BE86C3485A25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarmApp;
+			productName = SwarmApp;
+			productReference = 796590DC1DE11D6500E5FE40 /* SwarmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796590D41DE11D6500E5FE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "SWARM NYC";
+				TargetAttributes = {
+					796590DB1DE11D6500E5FE40 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49E6AM57U3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 796590D71DE11D6500E5FE40 /* Build configuration list for PBXProject "SwarmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796590D31DE11D6500E5FE40;
+			productRefGroup = 796590DD1DE11D6500E5FE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796590DB1DE11D6500E5FE40 /* SwarmApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796590DA1DE11D6500E5FE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796591311DE121A600E5FE40 /* SF-UI-Text-Medium.otf in Resources */,
+				796591301DE121A600E5FE40 /* SF-UI-Text-Light.otf in Resources */,
+				796590EA1DE11D6500E5FE40 /* LaunchScreen.storyboard in Resources */,
+				796590E71DE11D6500E5FE40 /* Assets.xcassets in Resources */,
+				7965912F1DE121A600E5FE40 /* SF-UI-Text-Bold.otf in Resources */,
+				796591321DE121A600E5FE40 /* SF-UI-Text-Regular.otf in Resources */,
+				796590E51DE11D6500E5FE40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FF1D78B2FD68B2C598E30F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3B00602207BE86C3485A25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D548DF3284C2C23CCE543D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796590D81DE11D6500E5FE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798815D11E086337004322D7 /* SwarmDataManager.swift in Sources */,
+				796590FB1DE11E4600E5FE40 /* UIFont+Additions.swift in Sources */,
+				7965911F1DE1216B00E5FE40 /* SBLocalStorage.m in Sources */,
+				796591221DE1216B00E5FE40 /* SBStaticHandlerResponse.m in Sources */,
+				79645F291E030B0C00E724BE /* SwarmsViewController.swift in Sources */,
+				796590FF1DE11F2E00E5FE40 /* PushTransitionAnimator.swift in Sources */,
+				796591201DE1216B00E5FE40 /* SBNotificationHubHelper.m in Sources */,
+				796591041DE11FB000E5FE40 /* User.swift in Sources */,
+				796591231DE1216B00E5FE40 /* SBStoredRegistrationEntry.m in Sources */,
+				796591251DE1216B00E5FE40 /* SBURLConnection.m in Sources */,
+				796591291DE1216B00E5FE40 /* SBTemplateRegistration.m in Sources */,
+				796591241DE1216B00E5FE40 /* SBTokenProvider.m in Sources */,
+				796590F71DE11E0000E5FE40 /* ViewController.swift in Sources */,
+				798815CF1E0862E1004322D7 /* SwarmCell.swift in Sources */,
+				796590FE1DE11F2E00E5FE40 /* PopTransitionAnimator.swift in Sources */,
+				79645F221E0307DC00E724BE /* FadeInTransitionAnimator.swift in Sources */,
+				796591261DE1216B00E5FE40 /* SBConnectionString.m in Sources */,
+				796590E01DE11D6500E5FE40 /* AppDelegate.swift in Sources */,
+				796591011DE11F5A00E5FE40 /* NavigationControllerDelegate.swift in Sources */,
+				796591211DE1216B00E5FE40 /* SBRegistrationParser.m in Sources */,
+				796591351DE1247600E5FE40 /* Swarm.swift in Sources */,
+				79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */,
+				796591281DE1216B00E5FE40 /* SBRegistration.m in Sources */,
+				79645F271E030AFD00E724BE /* SwarmsView.swift in Sources */,
+				79645F251E0307DC00E724BE /* SlideBackTransitionAnimator.swift in Sources */,
+				796591271DE1216B00E5FE40 /* SBNotificationHub.m in Sources */,
+				796590FA1DE11E4600E5FE40 /* UIColor+Additions.swift in Sources */,
+				79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		796590E31DE11D6500E5FE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796590E41DE11D6500E5FE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796590E91DE11D6500E5FE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796590EC1DE11D6500E5FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796590ED1DE11D6500E5FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796590EF1DE11D6500E5FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1DCF2A651B522E4F7761A4 /* Pods-SwarmApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49E6AM57U3;
+				INFOPLIST_FILE = SwarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		796590F01DE11D6500E5FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C9A2772F9FE04F4D326086 /* Pods-SwarmApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49E6AM57U3;
+				INFOPLIST_FILE = SwarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796590D71DE11D6500E5FE40 /* Build configuration list for PBXProject "SwarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796590EC1DE11D6500E5FE40 /* Debug */,
+				796590ED1DE11D6500E5FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796590EE1DE11D6500E5FE40 /* Build configuration list for PBXNativeTarget "SwarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796590EF1DE11D6500E5FE40 /* Debug */,
+				796590F01DE11D6500E5FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796590D41DE11D6500E5FE40 /* Project object */;
+}
