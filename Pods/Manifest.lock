@@ -10,6 +10,7 @@ PODS:
     - Result (~> 3.0)
   - Crashlytics (3.8.3):
     - Fabric (~> 1.6.3)
+  - Dollar (6.1.0)
   - Fabric (1.6.11)
   - FirebaseAnalytics (3.6.0):
     - FirebaseCore (~> 3.4)
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - Alamofire
   - Branch
   - Crashlytics
+  - Dollar
   - Fabric
   - Google/Analytics
   - GoogleIDFASupport
@@ -76,6 +78,7 @@ SPEC CHECKSUMS:
   Branch: a2c085213fd3953c241ad63aa49f4435bfc84da7
   BrightFutures: 62aafb1a63520eda91c9286bf4be33e58e043938
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Dollar: 0a9883680f2c1104adf0d19b827c3be71d3e3121
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
   FirebaseCore: 03da1cb32615569bbc2830a22f9ad753d9a02ef5
@@ -94,6 +97,6 @@ SPEC CHECKSUMS:
   Spine: bac602009a38593e77dba85927e0396250acf0d5
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
 
-PODFILE CHECKSUM: 1c7cc61b5aec36c93c53b3eeae4a0ecc8ebe386d
+PODFILE CHECKSUM: 95ec6b3947cf138b2dc31d77428f031b55cdfe9e
 
 COCOAPODS: 1.1.1

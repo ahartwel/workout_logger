@@ -4,14 +4,34 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SwarmApp copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>SwarmApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SwarmAppQA copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6993F96F1E087B3B00119E45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6993F9A01E087B4500119E45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>796590DB1DE11D6500E5FE40</key>
 		<dict>
 			<key>primary</key>

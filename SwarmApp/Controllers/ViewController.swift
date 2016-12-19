@@ -17,10 +17,13 @@ func print(_ item: @autoclosure () -> Any, separator: String = " ", terminator: 
 class ViewController: UINavigationController {
 
     let transitionManager = NavigationControllerDelegate()
+    let mainController: SwarmsViewController = SwarmsViewController();
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+        self.viewControllers = [self.mainController]; //for my own testing
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7A39A2AA3B4487319FDE70345FF13864'
+               BlueprintIdentifier = '0253BD8DCADADAAC39453A3E0A1F90FE'
                BlueprintName = 'Spine'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Spine.framework'>
