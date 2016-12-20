@@ -134,9 +134,9 @@
 		67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6993F96D1E087B3200119E45 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		6993F99E1E087B3B00119E45 /* SwarmAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6993F99F1E087B3B00119E45 /* SwarmApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmApp copy-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmAppQA-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9CF1E087B4500119E45 /* SwarmAppDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6993F9D01E087B4500119E45 /* SwarmAppQA copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA copy-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmAppQA copy-Info.plist"; sourceTree = "<absolute>"; };
+		6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppDEV-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmAppDEV-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9D21E08933700119E45 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		6993F9D61E08939700119E45 /* DataBind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBind.swift; sourceTree = "<group>"; };
 		6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmsViewViewModel.swift; sourceTree = "<group>"; };
@@ -246,8 +246,8 @@
 				796590DD1DE11D6500E5FE40 /* Products */,
 				FF95182022D81685952AD85E /* Pods */,
 				DE513E967AB6D3D769F51905 /* Frameworks */,
-				6993F99F1E087B3B00119E45 /* SwarmApp copy-Info.plist */,
-				6993F9D01E087B4500119E45 /* SwarmAppQA copy-Info.plist */,
+				6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */,
+				6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -747,7 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmApp copy-Info.plist";
+				INFOPLIST_FILE = "SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DQA";
@@ -763,7 +763,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmApp copy-Info.plist";
+				INFOPLIST_FILE = "SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DQA";
@@ -779,7 +779,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppQA copy-Info.plist";
+				INFOPLIST_FILE = "SwarmAppDEV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEV";
@@ -795,7 +795,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppQA copy-Info.plist";
+				INFOPLIST_FILE = "SwarmAppDEV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEV";
