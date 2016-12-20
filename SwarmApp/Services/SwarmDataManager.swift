@@ -11,10 +11,10 @@ import Spine
 
 class SwarmDataManager {
     
-    // data model dictionary of ID -> Swarm
+    // data model dictionary of ID -> Swarm ??? does this act as a cache?
     var swarms = [String:Swarm]()
     
-    var sortedswarms : [Swarm] {
+    var sortedswarms : [Swarm] { // Sorted for what?
         get {
             let swarmsarray = Array(swarms.values)
             // sort them based on buisiness logic
@@ -24,6 +24,11 @@ class SwarmDataManager {
 
     static let shared = SwarmDataManager()
     fileprivate init() {
+    }
+    
+    
+    func getSwarms(callback: ([Swarm]) -> ()) {
+        callback([]);
     }
     
 

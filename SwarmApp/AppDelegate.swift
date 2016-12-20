@@ -27,7 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #else
             BuddyBuildSDK.setup()
         #endif
-        
+        window = UIWindow(frame: UIScreen.main.bounds);
+        let navigation = ViewController();
+        window?.rootViewController = navigation;
+        window?.makeKeyAndVisible();
+
         return true
     }
 

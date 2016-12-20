@@ -87,6 +87,9 @@
 		6993F9D71E08939700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* DataBind.swift */; };
 		6993F9D81E08939700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* DataBind.swift */; };
 		6993F9D91E08939700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* DataBind.swift */; };
+		6993F9DC1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
+		6993F9DD1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
+		6993F9DE1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
 		79645F221E0307DC00E724BE /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
 		79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
 		79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
@@ -136,6 +139,7 @@
 		6993F9D01E087B4500119E45 /* SwarmAppQA copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA copy-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmAppQA copy-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9D21E08933700119E45 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		6993F9D61E08939700119E45 /* DataBind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBind.swift; sourceTree = "<group>"; };
+		6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmsViewViewModel.swift; sourceTree = "<group>"; };
 		79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransitionAnimator.swift; sourceTree = "<group>"; };
 		79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransitionAnimator.swift; sourceTree = "<group>"; };
 		79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -225,6 +229,15 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		6993F9DA1E08949F00119E45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		796590D31DE11D6500E5FE40 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,7 @@
 				796590DF1DE11D6500E5FE40 /* AppDelegate.swift */,
 				796590E31DE11D6500E5FE40 /* Main.storyboard */,
 				796591331DE121DA00E5FE40 /* BridgingHeader.h */,
+				6993F9DA1E08949F00119E45 /* ViewModels */,
 				796591021DE11FA600E5FE40 /* Models */,
 				796590F11DE11E0000E5FE40 /* Controllers */,
 				796590F31DE11E0000E5FE40 /* Extensions */,
@@ -617,6 +631,7 @@
 				6993F9861E087B3B00119E45 /* SBRegistrationParser.m in Sources */,
 				6993F9871E087B3B00119E45 /* Swarm.swift in Sources */,
 				6993F9881E087B3B00119E45 /* FadeOutTransitionAnimator.swift in Sources */,
+				6993F9DD1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */,
 				6993F9891E087B3B00119E45 /* SBRegistration.m in Sources */,
 				6993F98A1E087B3B00119E45 /* SwarmsView.swift in Sources */,
 				6993F98B1E087B3B00119E45 /* SlideBackTransitionAnimator.swift in Sources */,
@@ -655,6 +670,7 @@
 				6993F9B71E087B4500119E45 /* SBRegistrationParser.m in Sources */,
 				6993F9B81E087B4500119E45 /* Swarm.swift in Sources */,
 				6993F9B91E087B4500119E45 /* FadeOutTransitionAnimator.swift in Sources */,
+				6993F9DE1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */,
 				6993F9BA1E087B4500119E45 /* SBRegistration.m in Sources */,
 				6993F9BB1E087B4500119E45 /* SwarmsView.swift in Sources */,
 				6993F9BC1E087B4500119E45 /* SlideBackTransitionAnimator.swift in Sources */,
@@ -693,6 +709,7 @@
 				796591211DE1216B00E5FE40 /* SBRegistrationParser.m in Sources */,
 				796591351DE1247600E5FE40 /* Swarm.swift in Sources */,
 				79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */,
+				6993F9DC1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */,
 				796591281DE1216B00E5FE40 /* SBRegistration.m in Sources */,
 				79645F271E030AFD00E724BE /* SwarmsView.swift in Sources */,
 				79645F251E0307DC00E724BE /* SlideBackTransitionAnimator.swift in Sources */,
