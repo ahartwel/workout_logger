@@ -18,8 +18,8 @@ protocol SwarmViewDelegate {
 class SwarmsView: UIView {
     
     var delegate : SwarmViewDelegate?
+    var viewModel: SwarmViewModelReadDelegate?
     
-    var swarms: [Swarm] = [];
     
     lazy fileprivate var swarmImage : UIImageView = {
         [unowned self] in //not always necessary, but doesn't hurt and will stop memory issues in a few situations
@@ -90,8 +90,8 @@ class SwarmsView: UIView {
 
 extension SwarmsView {
     
-    func hookIntoViewModel(model: SwarmsViewViewModel) {
-        
+    func hookIntoViewModel(model: SwarmViewModelDataBindDelegate) {
+        self.viewModel = model.getSwarmViewModelReadDelegate();
         model.state.addBindee({
             [unowned self] newValue in
             self.viewStateChanged(state: newValue);
@@ -120,14 +120,12 @@ extension SwarmsView {
     // MARK: View State Methods
     
     func viewingSwarms(_ swarms: [Swarm]) {
-        self.swarms = swarms;
         self.swarmsTable.reloadData();
     }
     
     
     func deleteSwarmAt(_ index: Int, swarms: [Swarm]) {
         let indexPath = IndexPath(item: index, section: 0);
-        self.swarms = swarms;
         self.swarmsTable.deleteRows(at: [indexPath], with: UITableViewRowAnimation.fade)
     }
     
@@ -144,15 +142,14 @@ extension SwarmsView: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let swarmCell = tableView.dequeueReusableCell(withIdentifier: SwarmCell.REUSE_ID, for: indexPath) as! SwarmCell
-
-        let swarm = self.swarms[indexPath.row];
+        let swarm = self.viewModel!.getSwarms()[indexPath.row];
         swarm.title = "testing";
         swarmCell.populate(with: swarm)
         return swarmCell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.swarms.count;
+        return self.viewModel!.getSwarms().count;
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -163,7 +160,7 @@ extension SwarmsView: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        let swarm = self.swarms[indexPath.row];
+        let swarm = self.viewModel!.getSwarms()[indexPath.row];
         delegate?.swarmSelected(swarmView: self, swarm, atIndex: indexPath.row);
     }
     
@@ -173,10 +170,7 @@ extension SwarmsView: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete {
-            //let swarm = SwarmDataManager.shared.sortedswarms[indexPath.row] //the view should not be worried about modifing the data
-           
-            self.delegate?.deleteSwarm(swarmView: self, self.swarms[indexPath.row], atIndex: indexPath.row);
-           // tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.fade)
+            self.delegate?.deleteSwarm(swarmView: self, self.viewModel!.getSwarms()[indexPath.row], atIndex: indexPath.row);
         }
     }
 }

@@ -10,22 +10,24 @@ import UIKit
 
 class SwarmsViewController: UIViewController {
 
-    var theSwarm : Swarm?
     
     
-    var viewModel: SwarmsViewViewModel = SwarmsViewViewModel();
+    var viewModel: SwarmViewModelReadWriteDelegate = SwarmsViewViewModel();
     var swarmView: SwarmsView = SwarmsView(); //I like having a reference to the view so that you don't need to cast to the view to access a property/method
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view = self.swarmView;
-        self.swarmView.hookIntoViewModel(model: self.viewModel); //have the view hook into values from the View Model
+        
+        
+        let dataBindDelegate = self.viewModel.getDataBindDelegate();
+        self.swarmView.hookIntoViewModel(model: dataBindDelegate); //have the view hook into values from the View Model
         self.loadData();
     }
     
     func loadData() {
-        self.viewModel.changeViewState(.loadingSwarms);
+        self.viewModel.setState(state: .loadingSwarms);
         SwarmDataManager.shared.getSwarms(callback: {
             swarms in
             self.viewModel.setSwarms(swarms: swarms);
@@ -52,6 +54,6 @@ extension SwarmsViewController : SwarmViewDelegate {
 
 
     func swarmSelected(swarmView: SwarmsView, _ swarm : Swarm, atIndex index: Int) {
-        self.theSwarm = swarm;
+        self.viewModel.setTheSwarm(swarm: swarm);
     }
 }
