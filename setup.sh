@@ -18,6 +18,10 @@ exit
 else
 echo "Ok, coolio, the bundle id is $BUNDLEID"
 fi
+
+printf "What is the new remote repo url for git (ex. https://github.com/swarmnyc/TestBaseApp.git) -> "
+read REMOTEREPO
+
 #printf "What is the google analytics tracking id? -> "
 #read TRACKINGID
 #printf "What is the google analytics project id? -> "
@@ -84,4 +88,7 @@ for file in $(find . -name 'SwarmApp*'); #we need to do it again for files such 
     mv "$file" "$RENAME"
     done
 
+
+git remote remove origin
+git remote add origin $REMOTEREPO
 
