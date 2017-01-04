@@ -4,6 +4,14 @@
 
 ######We should look into the VIPER architecture
 
+
+##How to use this repo
+* Clone it into a directory on your computer.
+* Run ./setup.sh and enter in the project name, the desired bundle id, and the new git repo for the project
+![script img](imgs/setup.png)
+* The script will then rename everything and setup the project with the new details.
+* That's it. You are up and running.
+
 ##Main Architecture
 
 **View (Controller and View directories):** ViewControllers and their respective component Views are managed by the main Navigation Controller. View Controllers tell the NavigationController to change state when necessary.  UIViews use SnapKit to define layout. Events are handled inside of the view and passed up to the View Controller via delegation. 
