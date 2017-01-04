@@ -8,7 +8,7 @@
 
 import Foundation
 import Dollar
-
+import SWRMHelpers
 
 
 protocol SwarmViewModelReadDelegate {

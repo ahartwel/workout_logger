@@ -18,6 +18,7 @@ def swarm_pods
     pod 'GoogleIDFASupport'
     pod 'Dollar'
     pod 'BuddyBuildSDK'
+    pod 'SWRMHelpers', :git => 'https://github.com/swarmnyc/swarm-ios-framework.git', :branch => 'cocoapod'
 end
 
 target 'SwarmApp' do

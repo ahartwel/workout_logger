@@ -11,23 +11,23 @@ import UIKit
 
 
 
-class DataBind<T> {
-    static func getBindee(_ listener: DataBindListener<T>) -> DataBindee<T> {
+open class DataBind<T> {
+    static public func getBindee(_ listener: DataBindListener<T>) -> DataBindee<T> {
         let bindee = DataBindee<T>(callback: listener);
         return bindee;
     }
 }
 
-class DataBindListener<A> {
+open class DataBindListener<A> {
     var callback: (A) -> ()
-    init (listener: @escaping (A) -> ()) {
+    public init (listener: @escaping (A) -> ()) {
         self.callback = listener;
     }
 }
 
-class DataBindee<T> {
+open class DataBindee<T> {
     weak var listener: DataBindListener<T>?
-    init(callback: DataBindListener<T>) {
+    public init(callback: DataBindListener<T>) {
         self.listener = callback;
     }
     
@@ -68,7 +68,7 @@ class DataBindee<T> {
 
 
 
-class DataBindType<T> {
+open class DataBindType<T> {
     
     private var listeners: [DataBindListener<T>] = [];
     
@@ -86,35 +86,35 @@ class DataBindType<T> {
     var bindees: [DataBindee<T>] = [];
     var dontRun: Bool = false;
     
-    init(value: T) {
+    public init(value: T) {
         self.value = value;
     }
     
-    func addBindee(_ callback: @escaping (T) -> ()) {
+    public func addBindee(_ callback: @escaping (T) -> ()) {
         let listener: DataBindListener<T> = DataBindListener<T>(listener: callback);
         self.listeners.append(listener);
         let bindee = DataBind.getBindee(listener);
         self.bindees.append(bindee);
     }
     
-    func addBindee(_ callback: @escaping (T) -> (), runListener: Bool) {
+    public func addBindee(_ callback: @escaping (T) -> (), runListener: Bool) {
         self.addBindee(callback);
         if (runListener) {
             callback(self.value);
         }
     }
     
-    func set(_ value: T) {
+    public func set(_ value: T) {
         self.value = value;
     }
     
-    func set(_ value: T, dontRun: Bool) {
+    public func set(_ value: T, dontRun: Bool) {
         self.dontRun = dontRun;
         self.value = value;
     }
     
     
-    func get() -> T {
+    public func get() -> T {
         return self.value;
     }
     

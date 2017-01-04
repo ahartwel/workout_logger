@@ -1,0 +1,6 @@
+framework module SWRMHelpers {
+  umbrella header "SWRMHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

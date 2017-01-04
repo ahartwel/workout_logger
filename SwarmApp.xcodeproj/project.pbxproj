@@ -81,12 +81,6 @@
 		6993F9C71E087B4500119E45 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
 		6993F9C81E087B4500119E45 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
 		6993F9C91E087B4500119E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
-		6993F9D31E08933700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D21E08933700119E45 /* DataBind.swift */; };
-		6993F9D41E08933700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D21E08933700119E45 /* DataBind.swift */; };
-		6993F9D51E08933700119E45 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D21E08933700119E45 /* DataBind.swift */; };
-		6993F9D71E08939700119E45 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* Background.swift */; };
-		6993F9D81E08939700119E45 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* Background.swift */; };
-		6993F9D91E08939700119E45 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9D61E08939700119E45 /* Background.swift */; };
 		6993F9DC1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
 		6993F9DD1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
 		6993F9DE1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
@@ -137,8 +131,6 @@
 		6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppQA-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9CF1E087B4500119E45 /* SwarmAppDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppDEV-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppDEV-Info.plist"; sourceTree = "<absolute>"; };
-		6993F9D21E08933700119E45 /* DataBind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataBind.swift; path = SwarmApp/Helpers/DataBind.swift; sourceTree = "<group>"; };
-		6993F9D61E08939700119E45 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Background.swift; path = SwarmApp/Helpers/Background.swift; sourceTree = "<group>"; };
 		6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwarmsViewViewModel.swift; path = SwarmApp/ViewModels/SwarmsViewViewModel.swift; sourceTree = "<group>"; };
 		79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransitionAnimator.swift; sourceTree = "<group>"; };
 		79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -220,16 +212,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6993F9D11E08932500119E45 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				6993F9D21E08933700119E45 /* DataBind.swift */,
-				6993F9D61E08939700119E45 /* Background.swift */,
-			);
-			name = Helpers;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		6993F9DA1E08949F00119E45 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,7 +246,6 @@
 		796590DE1DE11D6500E5FE40 /* SwarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				6993F9D11E08932500119E45 /* Helpers */,
 				796590DF1DE11D6500E5FE40 /* AppDelegate.swift */,
 				796590E31DE11D6500E5FE40 /* Main.storyboard */,
 				796591331DE121DA00E5FE40 /* BridgingHeader.h */,
@@ -612,7 +593,6 @@
 				6993F9731E087B3B00119E45 /* UIFont+Additions.swift in Sources */,
 				6993F9741E087B3B00119E45 /* SBLocalStorage.m in Sources */,
 				6993F9751E087B3B00119E45 /* SBStaticHandlerResponse.m in Sources */,
-				6993F9D81E08939700119E45 /* Background.swift in Sources */,
 				6993F9761E087B3B00119E45 /* SwarmsViewController.swift in Sources */,
 				6993F9771E087B3B00119E45 /* PushTransitionAnimator.swift in Sources */,
 				6993F9781E087B3B00119E45 /* SBNotificationHubHelper.m in Sources */,
@@ -639,7 +619,6 @@
 				6993F98C1E087B3B00119E45 /* SBNotificationHub.m in Sources */,
 				6993F98D1E087B3B00119E45 /* UIColor+Additions.swift in Sources */,
 				6993F98E1E087B3B00119E45 /* SlideOverTransitionAnimator.swift in Sources */,
-				6993F9D41E08933700119E45 /* DataBind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,7 +630,6 @@
 				6993F9A41E087B4500119E45 /* UIFont+Additions.swift in Sources */,
 				6993F9A51E087B4500119E45 /* SBLocalStorage.m in Sources */,
 				6993F9A61E087B4500119E45 /* SBStaticHandlerResponse.m in Sources */,
-				6993F9D91E08939700119E45 /* Background.swift in Sources */,
 				6993F9A71E087B4500119E45 /* SwarmsViewController.swift in Sources */,
 				6993F9A81E087B4500119E45 /* PushTransitionAnimator.swift in Sources */,
 				6993F9A91E087B4500119E45 /* SBNotificationHubHelper.m in Sources */,
@@ -678,7 +656,6 @@
 				6993F9BD1E087B4500119E45 /* SBNotificationHub.m in Sources */,
 				6993F9BE1E087B4500119E45 /* UIColor+Additions.swift in Sources */,
 				6993F9BF1E087B4500119E45 /* SlideOverTransitionAnimator.swift in Sources */,
-				6993F9D51E08933700119E45 /* DataBind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +667,6 @@
 				796590FB1DE11E4600E5FE40 /* UIFont+Additions.swift in Sources */,
 				7965911F1DE1216B00E5FE40 /* SBLocalStorage.m in Sources */,
 				796591221DE1216B00E5FE40 /* SBStaticHandlerResponse.m in Sources */,
-				6993F9D71E08939700119E45 /* Background.swift in Sources */,
 				79645F291E030B0C00E724BE /* SwarmsViewController.swift in Sources */,
 				796590FF1DE11F2E00E5FE40 /* PushTransitionAnimator.swift in Sources */,
 				796591201DE1216B00E5FE40 /* SBNotificationHubHelper.m in Sources */,
@@ -717,7 +693,6 @@
 				796591271DE1216B00E5FE40 /* SBNotificationHub.m in Sources */,
 				796590FA1DE11E4600E5FE40 /* UIColor+Additions.swift in Sources */,
 				79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */,
-				6993F9D31E08933700119E45 /* DataBind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ open class Background {
     
     
     
-    static func runInBackground(_ inBackground: @escaping (() -> ())) {
+    static public func runInBackground(_ inBackground: @escaping (() -> ())) {
         let priority = DispatchQueue.GlobalQueuePriority.background;
         DispatchQueue.global(priority: priority).async {
             inBackground();
@@ -18,7 +18,7 @@ open class Background {
         
     }
     
-    static func runInBackgroundAndCallback(_ inBackground: @escaping (() -> ()), callback: @escaping (() -> ())) {
+    static public func runInBackgroundAndCallback(_ inBackground: @escaping (() -> ()), callback: @escaping (() -> ())) {
         let priority = DispatchQueue.GlobalQueuePriority.background;
         DispatchQueue.global(priority: priority).async {
             inBackground();
@@ -31,7 +31,7 @@ open class Background {
         
     }
     
-    static func runInBackgroundHighPriorityNoCallback(_ inBackground: @escaping (() -> ())) {
+    static public func runInBackgroundHighPriorityNoCallback(_ inBackground: @escaping (() -> ())) {
         let priority = DispatchQueue.GlobalQueuePriority.background;
         DispatchQueue.global(priority: priority).async {
             inBackground();
@@ -40,7 +40,7 @@ open class Background {
     }
     
     
-    static func runInBackgroundHighPriority(_ inBackground: @escaping (( (() -> ()) ) -> ()), callback: @escaping (() -> ())) {
+    static public func runInBackgroundHighPriority(_ inBackground: @escaping (( (() -> ()) ) -> ()), callback: @escaping (() -> ())) {
         let priority = DispatchQoS.QoSClass.userInitiated;
         DispatchQueue.global(qos: priority).async {
             inBackground({
@@ -55,7 +55,7 @@ open class Background {
         
     }
     
-    static func runInBackgroundAsyncAndCallback(_ inBackground: @escaping (( (@escaping () -> Void) ) -> ()), callback: @escaping (() -> ())) {
+    static public func runInBackgroundAsyncAndCallback(_ inBackground: @escaping (( (@escaping () -> Void) ) -> ()), callback: @escaping (() -> ())) {
         let priority = DispatchQueue.GlobalQueuePriority.background;
         DispatchQueue.global(priority: priority).async {
             inBackground({
@@ -71,7 +71,7 @@ open class Background {
         
     }
     
-    static func runInMainThread(_ closure: @escaping (() -> ())) {
+    static public func runInMainThread(_ closure: @escaping (() -> ())) {
         DispatchQueue.main.async(execute: closure);
     }
     
