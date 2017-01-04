@@ -10,8 +10,8 @@
 
 ######**Events are passed up starting at the view (via delegate methods), data is modified in the View Model and passed back down where it needs to go**
 
-**View Model:** Data is modified inside of the view model, not the controller. The view model isn't explicitly owned by anyone, it is created via protocols. The View Controller holds a reference to a ReadWrite Protocol and the views just a Read Protocol.
-The **Read Protocol** exposes methods for getting values in a usable format from the view model. The **Write Protocol** exposes methods for modifying data and updating the state of the view. No one except the View Model should modify its properties directly.
+**View Model:** Data is modified inside of the view model, not the controller. The view model is created and mantained via a collection of protocols. The View Controller holds a reference to a Read & Write Protocol and the views just have a Read Protocol.
+The **Read Protocol** exposes methods for getting values in a usable format from the view model for the view. The **Write Protocol** exposes methods for modifying data and updating the state of the view. No one except the View Model should modify its properties directly.
 
 
 **Services:** We utilize the Singleton design pattern for services which communicate over the network and store our data model.  We should implement a Network Cache for offline use, which can present stored data, and save Data created while offline to be uploaded when possible. Services are called from the view controller and the data returned passed into the view model
@@ -28,7 +28,7 @@ The **Read Protocol** exposes methods for getting values in a usable format from
 
 **Extensions:** We define the Colors and Fonts used by an app in extensions to the UIColor and UIFont classes, so we can refer to colors such as UIColor.tiplr_mediumPink()  Other extensions to iOS classes should go in here.
 
-**Configuration:**Holds all of the urls/configuration variables, that are changed based on which scheme is built.
+**Configuration:**Holds all of the urls/configuration variables, that are changed based on which scheme is built. 
 
 
 
