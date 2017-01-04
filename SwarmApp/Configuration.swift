@@ -26,6 +26,18 @@ class Configuration {
     }
     
     
+    var environment: String {
+        get {
+            #if DEV
+                return "DEV";
+            #elseif QA
+                return "QA";
+            #elseif PROD
+                return "PROD";
+            #endif
+        }
+    }
+    
     
     
 }

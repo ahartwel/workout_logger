@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1037A5E981987310439A7FDF /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
+		2CA1455F1E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
+		2CA145601E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
+		2CA145611E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
+		2CA1456A1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA1456F1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA145711E1D4D4B00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA145731E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
+		2CA145741E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
+		2CA145751E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
 		6993F96E1E087B3200119E45 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
 		6993F9721E087B3B00119E45 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
 		6993F9731E087B3B00119E45 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
@@ -125,6 +134,11 @@
 /* Begin PBXFileReference section */
 		0E1C9711714D4A917E9FF3AB /* Pods-SwarmApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.release.xcconfig"; sourceTree = "<group>"; };
 		1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarmApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA1455E1E1D4C4500CF1424 /* Tracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tracking.swift; path = Helpers/Tracking.swift; sourceTree = "<group>"; };
+		2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CA145721E1D4E6C00CF1424 /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
 		67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6993F96D1E087B3200119E45 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		6993F99E1E087B3B00119E45 /* SwarmAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +226,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA1455D1E1D4C3000CF1424 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2CA1455E1E1D4C4500CF1424 /* Tracking.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		2CA145621E1D4D3800CF1424 /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */,
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		2CA145641E1D4D3800CF1424 /* prod */ = {
+			isa = PBXGroup;
+			children = (
+				2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */,
+			);
+			path = prod;
+			sourceTree = "<group>";
+		};
+		2CA145661E1D4D3800CF1424 /* qa */ = {
+			isa = PBXGroup;
+			children = (
+				2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */,
+			);
+			path = qa;
+			sourceTree = "<group>";
+		};
 		6993F9DA1E08949F00119E45 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +275,7 @@
 				FF95182022D81685952AD85E /* Pods */,
 				DE513E967AB6D3D769F51905 /* Frameworks */,
 				6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */,
+				2CA145721E1D4E6C00CF1424 /* setup.sh */,
 				6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */,
 			);
 			sourceTree = "<group>";
@@ -246,6 +293,10 @@
 		796590DE1DE11D6500E5FE40 /* SwarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				2CA145621E1D4D3800CF1424 /* dev */,
+				2CA145641E1D4D3800CF1424 /* prod */,
+				2CA145661E1D4D3800CF1424 /* qa */,
+				2CA1455D1E1D4C3000CF1424 /* Helper */,
 				796590DF1DE11D6500E5FE40 /* AppDelegate.swift */,
 				796590E31DE11D6500E5FE40 /* Main.storyboard */,
 				796591331DE121DA00E5FE40 /* BridgingHeader.h */,
@@ -499,8 +550,10 @@
 				6993F9921E087B3B00119E45 /* SF-UI-Text-Medium.otf in Resources */,
 				6993F9931E087B3B00119E45 /* SF-UI-Text-Light.otf in Resources */,
 				6993F9941E087B3B00119E45 /* LaunchScreen.storyboard in Resources */,
+				2CA145741E1D4E6C00CF1424 /* setup.sh in Resources */,
 				6993F9951E087B3B00119E45 /* Assets.xcassets in Resources */,
 				6993F9961E087B3B00119E45 /* SF-UI-Text-Bold.otf in Resources */,
+				2CA1456F1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */,
 				6993F9971E087B3B00119E45 /* SF-UI-Text-Regular.otf in Resources */,
 				6993F9981E087B3B00119E45 /* Main.storyboard in Resources */,
 			);
@@ -511,7 +564,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6993F9C31E087B4500119E45 /* SF-UI-Text-Medium.otf in Resources */,
+				2CA1456A1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */,
 				6993F9C41E087B4500119E45 /* SF-UI-Text-Light.otf in Resources */,
+				2CA145751E1D4E6C00CF1424 /* setup.sh in Resources */,
 				6993F9C51E087B4500119E45 /* LaunchScreen.storyboard in Resources */,
 				6993F9C61E087B4500119E45 /* Assets.xcassets in Resources */,
 				6993F9C71E087B4500119E45 /* SF-UI-Text-Bold.otf in Resources */,
@@ -525,7 +580,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				796591311DE121A600E5FE40 /* SF-UI-Text-Medium.otf in Resources */,
+				2CA145711E1D4D4B00CF1424 /* GoogleService-Info.plist in Resources */,
 				796591301DE121A600E5FE40 /* SF-UI-Text-Light.otf in Resources */,
+				2CA145731E1D4E6C00CF1424 /* setup.sh in Resources */,
 				796590EA1DE11D6500E5FE40 /* LaunchScreen.storyboard in Resources */,
 				796590E71DE11D6500E5FE40 /* Assets.xcassets in Resources */,
 				7965912F1DE121A600E5FE40 /* SF-UI-Text-Bold.otf in Resources */,
@@ -596,6 +653,7 @@
 				6993F9761E087B3B00119E45 /* SwarmsViewController.swift in Sources */,
 				6993F9771E087B3B00119E45 /* PushTransitionAnimator.swift in Sources */,
 				6993F9781E087B3B00119E45 /* SBNotificationHubHelper.m in Sources */,
+				2CA145601E1D4C4500CF1424 /* Tracking.swift in Sources */,
 				6993F9791E087B3B00119E45 /* User.swift in Sources */,
 				6993F97A1E087B3B00119E45 /* SBStoredRegistrationEntry.m in Sources */,
 				6993F97B1E087B3B00119E45 /* SBURLConnection.m in Sources */,
@@ -633,6 +691,7 @@
 				6993F9A71E087B4500119E45 /* SwarmsViewController.swift in Sources */,
 				6993F9A81E087B4500119E45 /* PushTransitionAnimator.swift in Sources */,
 				6993F9A91E087B4500119E45 /* SBNotificationHubHelper.m in Sources */,
+				2CA145611E1D4C4500CF1424 /* Tracking.swift in Sources */,
 				6993F9AA1E087B4500119E45 /* User.swift in Sources */,
 				6993F9AB1E087B4500119E45 /* SBStoredRegistrationEntry.m in Sources */,
 				6993F9AC1E087B4500119E45 /* SBURLConnection.m in Sources */,
@@ -670,6 +729,7 @@
 				79645F291E030B0C00E724BE /* SwarmsViewController.swift in Sources */,
 				796590FF1DE11F2E00E5FE40 /* PushTransitionAnimator.swift in Sources */,
 				796591201DE1216B00E5FE40 /* SBNotificationHubHelper.m in Sources */,
+				2CA1455F1E1D4C4500CF1424 /* Tracking.swift in Sources */,
 				796591041DE11FB000E5FE40 /* User.swift in Sources */,
 				796591231DE1216B00E5FE40 /* SBStoredRegistrationEntry.m in Sources */,
 				796591251DE1216B00E5FE40 /* SBURLConnection.m in Sources */,
