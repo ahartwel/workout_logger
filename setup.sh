@@ -92,6 +92,7 @@ for file in $(find . -name 'SwarmApp*'); #we need to do it again for files such 
 git remote remove origin
 git remote add origin $REMOTEREPO
 
+pod install
 echo 'Wooh yeah, the script is complete. You should be good to go. Close the base project if it is open and reopen $NAME'
 
 
