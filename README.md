@@ -76,7 +76,7 @@ We use various Cocoapods to get up and running quickly:
 
 * UI Testing
 * Unit Testing
-
+* Look into autocreating Google Analytics Properties and Branch projects from the setup script.
 
 
 ##Client Setup & Deployment Checklist
