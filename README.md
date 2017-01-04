@@ -11,6 +11,7 @@
 ![script img](imgs/setup.png)
 * The script will then rename everything and setup the project with the new details.
 * That's it. You are up and running.
+* If anything goes wrong, repull and try again.
 
 ##Main Architecture
 
