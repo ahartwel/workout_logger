@@ -43,6 +43,7 @@ The **Read Protocol** exposes methods for getting values in a usable format from
 ##Pods
 
 We use various Cocoapods to get up and running quickly:
+**SWRMHelpers** is located in the branch 'cocoapod' of this repo. It contains a helper for running things in the background/main thread, a UIColor extension, and a Data Binding Utility.
 
 **Spine** is a JSONAPI library that allows us to easily define our Model and perform GET/POST/PATCH/DELETE calls to our API by serializing and deserializing our Data objects.
 
