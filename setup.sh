@@ -49,3 +49,13 @@ for file in $(find . -name 'SwarmApp*');
     RENAME=`echo "$file" | sed -e "s/SwarmApp/${NAME}/g"`
     mv "$file" "$RENAME"
     done
+for file in $(find . -name 'SwarmApp*'); #we need to do it again for files such as /SwarmApp/folder/testSwarmApp.swift
+    do
+    RENAME=`echo "$file" | sed -e "s/SwarmApp/${NAME}/g"`
+    mv "$file" "$RENAME"
+    done
+for file in $(find . -name 'SwarmApp*'); #we need to do it again for files such as /SwarmApp/folder/testSwarmApp.swift
+    do
+    RENAME=`echo "$file" | sed -e "s/SwarmApp/${NAME}/g"`
+    mv "$file" "$RENAME"
+    done
