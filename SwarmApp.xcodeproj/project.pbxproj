@@ -143,7 +143,7 @@
 		2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2CA145721E1D4E6C00CF1424 /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
+		2CA145721E1D4E6C00CF1424 /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; wrapsLines = 0; };
 		2CA145A91E1D595100CF1424 /* SwarmAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA145E01E1D59EF00CF1424 /* SwarmAppDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF347511FF6DCB60150D724 /* Pods_SwarmAppDEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarmAppDEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
