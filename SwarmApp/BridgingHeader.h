@@ -11,5 +11,6 @@
 
 #import "WindowsAzureMessaging/WindowsAzureMessaging.h"
 #import <Google/Analytics.h>
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 #endif /* BridgingHeader_h */

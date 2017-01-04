@@ -28,6 +28,25 @@ fi
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 find -name "TestApp*.*" -exec rename 's/^$NAME//' {} ";"
+
+
+
+for file in $(grep -l -R "com.swarmnyc.SwarmApp" $DIR)
+    do
+    #echo "$file"
+    if [[ "$file" == *"setup.sh"* ]] ; then
+        echo 'found shell'
+        continue;
+    fi
+    if [[ "$file" == *".git"* ]] ; then
+        echo "found git"
+        continue;
+    fi
+    LANG=C LC_ALL=C sed -i '' "s/com.swarmnyc.SwarmApp/$BUNDLEID/g" $file > tmpfile.tmp
+    let i++;
+    echo "Modified: " $file
+done
+
 for file in $(grep -l -R "SwarmApp" $DIR)
   do
 #echo "$file"
@@ -44,6 +63,11 @@ if [[ "$file" == *"setup.sh"* ]] ; then
     echo "Modified: " $file
   done
 
+
+
+
+
+#com.swarmnyc.SwarmApp
 for file in $(find . -name 'SwarmApp*');
     do
     RENAME=`echo "$file" | sed -e "s/SwarmApp/${NAME}/g"`
@@ -59,3 +83,5 @@ for file in $(find . -name 'SwarmApp*'); #we need to do it again for files such 
     RENAME=`echo "$file" | sed -e "s/SwarmApp/${NAME}/g"`
     mv "$file" "$RENAME"
     done
+
+

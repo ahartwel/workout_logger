@@ -61,7 +61,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - SnapKit (3.0.2)
+  - SnapKit (3.1.2)
   - Spine (0.4):
     - BrightFutures (~> 5.0)
     - SwiftyJSON (~> 3.1)
@@ -99,7 +99,7 @@ CHECKOUT OPTIONS:
     :commit: bd42dae6fc9ad1c48f4914ad4c9150008dc4e114
     :git: https://github.com/swarmnyc/Spine.git
   SWRMHelpers:
-    :commit: 5ed90df7edf55a53aebc07001b97e4898f519e89
+    :commit: 80fd5a794bf7a3d2996dd903cf7d62b2252cf478
     :git: https://github.com/swarmnyc/swarm-ios-framework.git
 
 SPEC CHECKSUMS:
@@ -127,11 +127,11 @@ SPEC CHECKSUMS:
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
-  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
   Spine: bac602009a38593e77dba85927e0396250acf0d5
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
   SWRMHelpers: 4c5bfe1c78794db01500d66470970f12cfc53a5f
 
-PODFILE CHECKSUM: dfab899b936d240d15de7869707dc7096b04a0fb
+PODFILE CHECKSUM: 298217445bee76a5cd30332364807c1b4f2a5678
 
 COCOAPODS: 1.1.1

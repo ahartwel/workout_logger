@@ -25,6 +25,14 @@ target 'SwarmApp' do
     swarm_pods
 end
 
+target 'SwarmAppDEV' do
+    swarm_pods
+end
+
+target 'SwarmAppQA' do
+    swarm_pods
+end
+
 # uncomment for Prod target
 #target 'SwarmApp Prod' do
 #    swarm_pods

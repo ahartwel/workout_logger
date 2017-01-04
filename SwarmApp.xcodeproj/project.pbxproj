@@ -7,92 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1037A5E981987310439A7FDF /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
 		2CA1455F1E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
-		2CA145601E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
-		2CA145611E1D4C4500CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
-		2CA1456A1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */; };
-		2CA1456F1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		2CA145711E1D4D4B00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		2CA145731E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
-		2CA145741E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
-		2CA145751E1D4E6C00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
+		2CA145791E1D595100CF1424 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
+		2CA1457A1E1D595100CF1424 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
+		2CA1457B1E1D595100CF1424 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591081DE1216B00E5FE40 /* SBLocalStorage.m */; };
+		2CA1457C1E1D595100CF1424 /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */; };
+		2CA1457D1E1D595100CF1424 /* SwarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F281E030B0C00E724BE /* SwarmsViewController.swift */; };
+		2CA1457E1E1D595100CF1424 /* PushTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */; };
+		2CA1457F1E1D595100CF1424 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */; };
+		2CA145801E1D595100CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
+		2CA145811E1D595100CF1424 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591031DE11FB000E5FE40 /* User.swift */; };
+		2CA145821E1D595100CF1424 /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */; };
+		2CA145831E1D595100CF1424 /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591141DE1216B00E5FE40 /* SBURLConnection.m */; };
+		2CA145841E1D595100CF1424 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
+		2CA145851E1D595100CF1424 /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */; };
+		2CA145861E1D595100CF1424 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591121DE1216B00E5FE40 /* SBTokenProvider.m */; };
+		2CA145871E1D595100CF1424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
+		2CA145881E1D595100CF1424 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
+		2CA145891E1D595100CF1424 /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */; };
+		2CA1458A1E1D595100CF1424 /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
+		2CA1458B1E1D595100CF1424 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591161DE1216B00E5FE40 /* SBConnectionString.m */; };
+		2CA1458C1E1D595100CF1424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
+		2CA1458D1E1D595100CF1424 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */; };
+		2CA1458E1E1D595100CF1424 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */; };
+		2CA1458F1E1D595100CF1424 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
+		2CA145901E1D595100CF1424 /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
+		2CA145911E1D595100CF1424 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
+		2CA145921E1D595100CF1424 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911A1DE1216B00E5FE40 /* SBRegistration.m */; };
+		2CA145931E1D595100CF1424 /* SwarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F261E030AFD00E724BE /* SwarmsView.swift */; };
+		2CA145941E1D595100CF1424 /* SlideBackTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */; };
+		2CA145951E1D595100CF1424 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591181DE1216B00E5FE40 /* SBNotificationHub.m */; };
+		2CA145961E1D595100CF1424 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
+		2CA145971E1D595100CF1424 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
+		2CA145991E1D595100CF1424 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
+		2CA1459B1E1D595100CF1424 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
+		2CA1459C1E1D595100CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA1459D1E1D595100CF1424 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
+		2CA1459E1E1D595100CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
+		2CA1459F1E1D595100CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
+		2CA145A01E1D595100CF1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
+		2CA145A11E1D595100CF1424 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
+		2CA145A21E1D595100CF1424 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
+		2CA145A31E1D595100CF1424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
+		2CA145AB1E1D597300CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA145AF1E1D59EF00CF1424 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
+		2CA145B01E1D59EF00CF1424 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
+		2CA145B11E1D59EF00CF1424 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591081DE1216B00E5FE40 /* SBLocalStorage.m */; };
+		2CA145B21E1D59EF00CF1424 /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */; };
+		2CA145B31E1D59EF00CF1424 /* SwarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F281E030B0C00E724BE /* SwarmsViewController.swift */; };
+		2CA145B41E1D59EF00CF1424 /* PushTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */; };
+		2CA145B51E1D59EF00CF1424 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */; };
+		2CA145B61E1D59EF00CF1424 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1455E1E1D4C4500CF1424 /* Tracking.swift */; };
+		2CA145B71E1D59EF00CF1424 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591031DE11FB000E5FE40 /* User.swift */; };
+		2CA145B81E1D59EF00CF1424 /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */; };
+		2CA145B91E1D59EF00CF1424 /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591141DE1216B00E5FE40 /* SBURLConnection.m */; };
+		2CA145BA1E1D59EF00CF1424 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
+		2CA145BB1E1D59EF00CF1424 /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */; };
+		2CA145BC1E1D59EF00CF1424 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591121DE1216B00E5FE40 /* SBTokenProvider.m */; };
+		2CA145BD1E1D59EF00CF1424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
+		2CA145BE1E1D59EF00CF1424 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
+		2CA145BF1E1D59EF00CF1424 /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */; };
+		2CA145C01E1D59EF00CF1424 /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
+		2CA145C11E1D59EF00CF1424 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591161DE1216B00E5FE40 /* SBConnectionString.m */; };
+		2CA145C21E1D59EF00CF1424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
+		2CA145C31E1D59EF00CF1424 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */; };
+		2CA145C41E1D59EF00CF1424 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */; };
+		2CA145C51E1D59EF00CF1424 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
+		2CA145C61E1D59EF00CF1424 /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
+		2CA145C71E1D59EF00CF1424 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
+		2CA145C81E1D59EF00CF1424 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911A1DE1216B00E5FE40 /* SBRegistration.m */; };
+		2CA145C91E1D59EF00CF1424 /* SwarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F261E030AFD00E724BE /* SwarmsView.swift */; };
+		2CA145CA1E1D59EF00CF1424 /* SlideBackTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */; };
+		2CA145CB1E1D59EF00CF1424 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591181DE1216B00E5FE40 /* SBNotificationHub.m */; };
+		2CA145CC1E1D59EF00CF1424 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
+		2CA145CD1E1D59EF00CF1424 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
+		2CA145CF1E1D59EF00CF1424 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
+		2CA145D11E1D59EF00CF1424 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
+		2CA145D21E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA145D31E1D59EF00CF1424 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
+		2CA145D41E1D59EF00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
+		2CA145D51E1D59EF00CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
+		2CA145D61E1D59EF00CF1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
+		2CA145D71E1D59EF00CF1424 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
+		2CA145D81E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */; };
+		2CA145D91E1D59EF00CF1424 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
+		2CA145DA1E1D59EF00CF1424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
 		6993F96E1E087B3200119E45 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
-		6993F9721E087B3B00119E45 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
-		6993F9731E087B3B00119E45 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
-		6993F9741E087B3B00119E45 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591081DE1216B00E5FE40 /* SBLocalStorage.m */; };
-		6993F9751E087B3B00119E45 /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */; };
-		6993F9761E087B3B00119E45 /* SwarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F281E030B0C00E724BE /* SwarmsViewController.swift */; };
-		6993F9771E087B3B00119E45 /* PushTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */; };
-		6993F9781E087B3B00119E45 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */; };
-		6993F9791E087B3B00119E45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591031DE11FB000E5FE40 /* User.swift */; };
-		6993F97A1E087B3B00119E45 /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */; };
-		6993F97B1E087B3B00119E45 /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591141DE1216B00E5FE40 /* SBURLConnection.m */; };
-		6993F97C1E087B3B00119E45 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
-		6993F97D1E087B3B00119E45 /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */; };
-		6993F97E1E087B3B00119E45 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591121DE1216B00E5FE40 /* SBTokenProvider.m */; };
-		6993F97F1E087B3B00119E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
-		6993F9801E087B3B00119E45 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
-		6993F9811E087B3B00119E45 /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */; };
-		6993F9821E087B3B00119E45 /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
-		6993F9831E087B3B00119E45 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591161DE1216B00E5FE40 /* SBConnectionString.m */; };
-		6993F9841E087B3B00119E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
-		6993F9851E087B3B00119E45 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */; };
-		6993F9861E087B3B00119E45 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */; };
-		6993F9871E087B3B00119E45 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
-		6993F9881E087B3B00119E45 /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
-		6993F9891E087B3B00119E45 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911A1DE1216B00E5FE40 /* SBRegistration.m */; };
-		6993F98A1E087B3B00119E45 /* SwarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F261E030AFD00E724BE /* SwarmsView.swift */; };
-		6993F98B1E087B3B00119E45 /* SlideBackTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */; };
-		6993F98C1E087B3B00119E45 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591181DE1216B00E5FE40 /* SBNotificationHub.m */; };
-		6993F98D1E087B3B00119E45 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
-		6993F98E1E087B3B00119E45 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
-		6993F9921E087B3B00119E45 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
-		6993F9931E087B3B00119E45 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
-		6993F9941E087B3B00119E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
-		6993F9951E087B3B00119E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
-		6993F9961E087B3B00119E45 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
-		6993F9971E087B3B00119E45 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
-		6993F9981E087B3B00119E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
-		6993F9A31E087B4500119E45 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
-		6993F9A41E087B4500119E45 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
-		6993F9A51E087B4500119E45 /* SBLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591081DE1216B00E5FE40 /* SBLocalStorage.m */; };
-		6993F9A61E087B4500119E45 /* SBStaticHandlerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910E1DE1216B00E5FE40 /* SBStaticHandlerResponse.m */; };
-		6993F9A71E087B4500119E45 /* SwarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F281E030B0C00E724BE /* SwarmsViewController.swift */; };
-		6993F9A81E087B4500119E45 /* PushTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FD1DE11F2E00E5FE40 /* PushTransitionAnimator.swift */; };
-		6993F9A91E087B4500119E45 /* SBNotificationHubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910A1DE1216B00E5FE40 /* SBNotificationHubHelper.m */; };
-		6993F9AA1E087B4500119E45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591031DE11FB000E5FE40 /* User.swift */; };
-		6993F9AB1E087B4500119E45 /* SBStoredRegistrationEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591101DE1216B00E5FE40 /* SBStoredRegistrationEntry.m */; };
-		6993F9AC1E087B4500119E45 /* SBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591141DE1216B00E5FE40 /* SBURLConnection.m */; };
-		6993F9AD1E087B4500119E45 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
-		6993F9AE1E087B4500119E45 /* SBTemplateRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911C1DE1216B00E5FE40 /* SBTemplateRegistration.m */; };
-		6993F9AF1E087B4500119E45 /* SBTokenProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591121DE1216B00E5FE40 /* SBTokenProvider.m */; };
-		6993F9B01E087B4500119E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
-		6993F9B11E087B4500119E45 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
-		6993F9B21E087B4500119E45 /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590FC1DE11F2E00E5FE40 /* PopTransitionAnimator.swift */; };
-		6993F9B31E087B4500119E45 /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
-		6993F9B41E087B4500119E45 /* SBConnectionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591161DE1216B00E5FE40 /* SBConnectionString.m */; };
-		6993F9B51E087B4500119E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
-		6993F9B61E087B4500119E45 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591001DE11F5A00E5FE40 /* NavigationControllerDelegate.swift */; };
-		6993F9B71E087B4500119E45 /* SBRegistrationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965910C1DE1216B00E5FE40 /* SBRegistrationParser.m */; };
-		6993F9B81E087B4500119E45 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
-		6993F9B91E087B4500119E45 /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
-		6993F9BA1E087B4500119E45 /* SBRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965911A1DE1216B00E5FE40 /* SBRegistration.m */; };
-		6993F9BB1E087B4500119E45 /* SwarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F261E030AFD00E724BE /* SwarmsView.swift */; };
-		6993F9BC1E087B4500119E45 /* SlideBackTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F211E0307DC00E724BE /* SlideBackTransitionAnimator.swift */; };
-		6993F9BD1E087B4500119E45 /* SBNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 796591181DE1216B00E5FE40 /* SBNotificationHub.m */; };
-		6993F9BE1E087B4500119E45 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
-		6993F9BF1E087B4500119E45 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
-		6993F9C31E087B4500119E45 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
-		6993F9C41E087B4500119E45 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
-		6993F9C51E087B4500119E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
-		6993F9C61E087B4500119E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
-		6993F9C71E087B4500119E45 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
-		6993F9C81E087B4500119E45 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
-		6993F9C91E087B4500119E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
 		6993F9DC1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
-		6993F9DD1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
-		6993F9DE1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
 		79645F221E0307DC00E724BE /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
 		79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
 		79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
@@ -128,6 +131,8 @@
 		796591351DE1247600E5FE40 /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796591341DE1247600E5FE40 /* Swarm.swift */; };
 		798815CF1E0862E1004322D7 /* SwarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815CE1E0862E1004322D7 /* SwarmCell.swift */; };
 		798815D11E086337004322D7 /* SwarmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798815D01E086337004322D7 /* SwarmDataManager.swift */; };
+		E7B968718BA66605D4672FA2 /* Pods_SwarmAppQA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5DB0BA20A811AB2B629262 /* Pods_SwarmAppQA.framework */; };
+		F45DDBC652A94F5F1A00A783 /* Pods_SwarmAppDEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF347511FF6DCB60150D724 /* Pods_SwarmAppDEV.framework */; };
 		F71C51FF4DEE4B10459F5460 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -139,11 +144,13 @@
 		2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2CA145721E1D4E6C00CF1424 /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
+		2CA145A91E1D595100CF1424 /* SwarmAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA145E01E1D59EF00CF1424 /* SwarmAppDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF347511FF6DCB60150D724 /* Pods_SwarmAppDEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarmAppDEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCE7FC844D4B8A307CDFC /* Pods-SwarmAppQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmAppQA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmAppQA/Pods-SwarmAppQA.release.xcconfig"; sourceTree = "<group>"; };
 		67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6993F96D1E087B3200119E45 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		6993F99E1E087B3B00119E45 /* SwarmAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppQA-Info.plist"; sourceTree = "<absolute>"; };
-		6993F9CF1E087B4500119E45 /* SwarmAppDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmAppDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppDEV-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppDEV-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwarmsViewViewModel.swift; path = SwarmApp/ViewModels/SwarmsViewViewModel.swift; sourceTree = "<group>"; };
 		79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -197,20 +204,28 @@
 		796591341DE1247600E5FE40 /* Swarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swarm.swift; sourceTree = "<group>"; };
 		798815CE1E0862E1004322D7 /* SwarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmCell.swift; sourceTree = "<group>"; };
 		798815D01E086337004322D7 /* SwarmDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwarmDataManager.swift; sourceTree = "<group>"; };
+		9E5DB0BA20A811AB2B629262 /* Pods_SwarmAppQA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwarmAppQA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5210571E0C44E458066B422 /* Pods-SwarmAppDEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmAppDEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmAppDEV/Pods-SwarmAppDEV.release.xcconfig"; sourceTree = "<group>"; };
+		A557B2D25BC840A1D73DBE1E /* Pods-SwarmAppDEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmAppDEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmAppDEV/Pods-SwarmAppDEV.debug.xcconfig"; sourceTree = "<group>"; };
+		E1184F96CF9385C0194F506C /* Pods-SwarmAppQA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmAppQA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmAppQA/Pods-SwarmAppQA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6993F98F1E087B3B00119E45 /* Frameworks */ = {
+		2CA145981E1D595100CF1424 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA145991E1D595100CF1424 /* Pods_SwarmApp.framework in Frameworks */,
+				E7B968718BA66605D4672FA2 /* Pods_SwarmAppQA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6993F9C01E087B4500119E45 /* Frameworks */ = {
+		2CA145CE1E1D59EF00CF1424 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA145CF1E1D59EF00CF1424 /* Pods_SwarmApp.framework in Frameworks */,
+				F45DDBC652A94F5F1A00A783 /* Pods_SwarmAppDEV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71C51FF4DEE4B10459F5460 /* Pods_SwarmApp.framework in Frameworks */,
-				1037A5E981987310439A7FDF /* Pods_SwarmApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +288,7 @@
 				796590DD1DE11D6500E5FE40 /* Products */,
 				FF95182022D81685952AD85E /* Pods */,
 				DE513E967AB6D3D769F51905 /* Frameworks */,
-				6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */,
 				2CA145721E1D4E6C00CF1424 /* setup.sh */,
-				6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -284,8 +296,8 @@
 			isa = PBXGroup;
 			children = (
 				796590DC1DE11D6500E5FE40 /* SwarmApp.app */,
-				6993F99E1E087B3B00119E45 /* SwarmAppQA.app */,
-				6993F9CF1E087B4500119E45 /* SwarmAppDEV.app */,
+				2CA145A91E1D595100CF1424 /* SwarmAppQA.app */,
+				2CA145E01E1D59EF00CF1424 /* SwarmAppDEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +322,8 @@
 				796590E61DE11D6500E5FE40 /* Assets.xcassets */,
 				796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */,
 				796590EB1DE11D6500E5FE40 /* Info.plist */,
+				6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */,
+				6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */,
 				7965912A1DE121A600E5FE40 /* Fonts */,
 				796591051DE1216B00E5FE40 /* WindowsAzureMessaging */,
 				6993F96D1E087B3200119E45 /* Configuration.swift */,
@@ -429,6 +443,8 @@
 			isa = PBXGroup;
 			children = (
 				1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */,
+				2DF347511FF6DCB60150D724 /* Pods_SwarmAppDEV.framework */,
+				9E5DB0BA20A811AB2B629262 /* Pods_SwarmAppQA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -438,6 +454,10 @@
 			children = (
 				67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */,
 				0E1C9711714D4A917E9FF3AB /* Pods-SwarmApp.release.xcconfig */,
+				A557B2D25BC840A1D73DBE1E /* Pods-SwarmAppDEV.debug.xcconfig */,
+				A5210571E0C44E458066B422 /* Pods-SwarmAppDEV.release.xcconfig */,
+				E1184F96CF9385C0194F506C /* Pods-SwarmAppQA.debug.xcconfig */,
+				4FBCCE7FC844D4B8A307CDFC /* Pods-SwarmAppQA.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -445,13 +465,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6993F96F1E087B3B00119E45 /* SwarmAppQA */ = {
+		2CA145761E1D595100CF1424 /* SwarmAppQA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6993F99B1E087B3B00119E45 /* Build configuration list for PBXNativeTarget "SwarmAppQA" */;
+			buildConfigurationList = 2CA145A61E1D595100CF1424 /* Build configuration list for PBXNativeTarget "SwarmAppQA" */;
 			buildPhases = (
-				6993F9711E087B3B00119E45 /* Sources */,
-				6993F98F1E087B3B00119E45 /* Frameworks */,
-				6993F9911E087B3B00119E45 /* Resources */,
+				2CA145771E1D595100CF1424 /* [CP] Check Pods Manifest.lock */,
+				2CA145781E1D595100CF1424 /* Sources */,
+				2CA145981E1D595100CF1424 /* Frameworks */,
+				2CA1459A1E1D595100CF1424 /* Resources */,
+				2CA145A41E1D595100CF1424 /* [CP] Embed Pods Frameworks */,
+				2CA145A51E1D595100CF1424 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,16 +482,19 @@
 			);
 			name = SwarmAppQA;
 			productName = SwarmApp;
-			productReference = 6993F99E1E087B3B00119E45 /* SwarmAppQA.app */;
+			productReference = 2CA145A91E1D595100CF1424 /* SwarmAppQA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6993F9A01E087B4500119E45 /* SwarmAppDEV */ = {
+		2CA145AC1E1D59EF00CF1424 /* SwarmAppDEV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6993F9CC1E087B4500119E45 /* Build configuration list for PBXNativeTarget "SwarmAppDEV" */;
+			buildConfigurationList = 2CA145DD1E1D59EF00CF1424 /* Build configuration list for PBXNativeTarget "SwarmAppDEV" */;
 			buildPhases = (
-				6993F9A21E087B4500119E45 /* Sources */,
-				6993F9C01E087B4500119E45 /* Frameworks */,
-				6993F9C21E087B4500119E45 /* Resources */,
+				2CA145AD1E1D59EF00CF1424 /* [CP] Check Pods Manifest.lock */,
+				2CA145AE1E1D59EF00CF1424 /* Sources */,
+				2CA145CE1E1D59EF00CF1424 /* Frameworks */,
+				2CA145D01E1D59EF00CF1424 /* Resources */,
+				2CA145DB1E1D59EF00CF1424 /* [CP] Embed Pods Frameworks */,
+				2CA145DC1E1D59EF00CF1424 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,7 +502,7 @@
 			);
 			name = SwarmAppDEV;
 			productName = SwarmApp;
-			productReference = 6993F9CF1E087B4500119E45 /* SwarmAppDEV.app */;
+			productReference = 2CA145E01E1D59EF00CF1424 /* SwarmAppDEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 		796590DB1DE11D6500E5FE40 /* SwarmApp */ = {
@@ -506,13 +532,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "SWARM NYC";
 				TargetAttributes = {
-					6993F96F1E087B3B00119E45 = {
+					2CA145761E1D595100CF1424 = {
 						DevelopmentTeam = 49E6AM57U3;
 					};
-					6993F9A01E087B4500119E45 = {
+					2CA145AC1E1D59EF00CF1424 = {
 						DevelopmentTeam = 49E6AM57U3;
 					};
 					796590DB1DE11D6500E5FE40 = {
@@ -536,42 +562,44 @@
 			projectRoot = "";
 			targets = (
 				796590DB1DE11D6500E5FE40 /* SwarmApp */,
-				6993F96F1E087B3B00119E45 /* SwarmAppQA */,
-				6993F9A01E087B4500119E45 /* SwarmAppDEV */,
+				2CA145761E1D595100CF1424 /* SwarmAppQA */,
+				2CA145AC1E1D59EF00CF1424 /* SwarmAppDEV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6993F9911E087B3B00119E45 /* Resources */ = {
+		2CA1459A1E1D595100CF1424 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6993F9921E087B3B00119E45 /* SF-UI-Text-Medium.otf in Resources */,
-				6993F9931E087B3B00119E45 /* SF-UI-Text-Light.otf in Resources */,
-				6993F9941E087B3B00119E45 /* LaunchScreen.storyboard in Resources */,
-				2CA145741E1D4E6C00CF1424 /* setup.sh in Resources */,
-				6993F9951E087B3B00119E45 /* Assets.xcassets in Resources */,
-				6993F9961E087B3B00119E45 /* SF-UI-Text-Bold.otf in Resources */,
-				2CA1456F1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */,
-				6993F9971E087B3B00119E45 /* SF-UI-Text-Regular.otf in Resources */,
-				6993F9981E087B3B00119E45 /* Main.storyboard in Resources */,
+				2CA1459B1E1D595100CF1424 /* SF-UI-Text-Medium.otf in Resources */,
+				2CA1459C1E1D595100CF1424 /* GoogleService-Info.plist in Resources */,
+				2CA1459D1E1D595100CF1424 /* SF-UI-Text-Light.otf in Resources */,
+				2CA1459E1E1D595100CF1424 /* setup.sh in Resources */,
+				2CA1459F1E1D595100CF1424 /* LaunchScreen.storyboard in Resources */,
+				2CA145A01E1D595100CF1424 /* Assets.xcassets in Resources */,
+				2CA145A11E1D595100CF1424 /* SF-UI-Text-Bold.otf in Resources */,
+				2CA145AB1E1D597300CF1424 /* GoogleService-Info.plist in Resources */,
+				2CA145A21E1D595100CF1424 /* SF-UI-Text-Regular.otf in Resources */,
+				2CA145A31E1D595100CF1424 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6993F9C21E087B4500119E45 /* Resources */ = {
+		2CA145D01E1D59EF00CF1424 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6993F9C31E087B4500119E45 /* SF-UI-Text-Medium.otf in Resources */,
-				2CA1456A1E1D4D3800CF1424 /* GoogleService-Info.plist in Resources */,
-				6993F9C41E087B4500119E45 /* SF-UI-Text-Light.otf in Resources */,
-				2CA145751E1D4E6C00CF1424 /* setup.sh in Resources */,
-				6993F9C51E087B4500119E45 /* LaunchScreen.storyboard in Resources */,
-				6993F9C61E087B4500119E45 /* Assets.xcassets in Resources */,
-				6993F9C71E087B4500119E45 /* SF-UI-Text-Bold.otf in Resources */,
-				6993F9C81E087B4500119E45 /* SF-UI-Text-Regular.otf in Resources */,
-				6993F9C91E087B4500119E45 /* Main.storyboard in Resources */,
+				2CA145D11E1D59EF00CF1424 /* SF-UI-Text-Medium.otf in Resources */,
+				2CA145D21E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */,
+				2CA145D31E1D59EF00CF1424 /* SF-UI-Text-Light.otf in Resources */,
+				2CA145D41E1D59EF00CF1424 /* setup.sh in Resources */,
+				2CA145D51E1D59EF00CF1424 /* LaunchScreen.storyboard in Resources */,
+				2CA145D61E1D59EF00CF1424 /* Assets.xcassets in Resources */,
+				2CA145D71E1D59EF00CF1424 /* SF-UI-Text-Bold.otf in Resources */,
+				2CA145D81E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */,
+				2CA145D91E1D59EF00CF1424 /* SF-UI-Text-Regular.otf in Resources */,
+				2CA145DA1E1D59EF00CF1424 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +622,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2CA145771E1D595100CF1424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA145A41E1D595100CF1424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmAppQA/Pods-SwarmAppQA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA145A51E1D595100CF1424 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmAppQA/Pods-SwarmAppQA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA145AD1E1D59EF00CF1424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA145DB1E1D59EF00CF1424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmAppDEV/Pods-SwarmAppDEV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA145DC1E1D59EF00CF1424 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmAppDEV/Pods-SwarmAppDEV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6FF1D78B2FD68B2C598E30F3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -642,79 +760,79 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6993F9711E087B3B00119E45 /* Sources */ = {
+		2CA145781E1D595100CF1424 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6993F9721E087B3B00119E45 /* SwarmDataManager.swift in Sources */,
-				6993F9731E087B3B00119E45 /* UIFont+Additions.swift in Sources */,
-				6993F9741E087B3B00119E45 /* SBLocalStorage.m in Sources */,
-				6993F9751E087B3B00119E45 /* SBStaticHandlerResponse.m in Sources */,
-				6993F9761E087B3B00119E45 /* SwarmsViewController.swift in Sources */,
-				6993F9771E087B3B00119E45 /* PushTransitionAnimator.swift in Sources */,
-				6993F9781E087B3B00119E45 /* SBNotificationHubHelper.m in Sources */,
-				2CA145601E1D4C4500CF1424 /* Tracking.swift in Sources */,
-				6993F9791E087B3B00119E45 /* User.swift in Sources */,
-				6993F97A1E087B3B00119E45 /* SBStoredRegistrationEntry.m in Sources */,
-				6993F97B1E087B3B00119E45 /* SBURLConnection.m in Sources */,
-				6993F97C1E087B3B00119E45 /* Configuration.swift in Sources */,
-				6993F97D1E087B3B00119E45 /* SBTemplateRegistration.m in Sources */,
-				6993F97E1E087B3B00119E45 /* SBTokenProvider.m in Sources */,
-				6993F97F1E087B3B00119E45 /* ViewController.swift in Sources */,
-				6993F9801E087B3B00119E45 /* SwarmCell.swift in Sources */,
-				6993F9811E087B3B00119E45 /* PopTransitionAnimator.swift in Sources */,
-				6993F9821E087B3B00119E45 /* FadeInTransitionAnimator.swift in Sources */,
-				6993F9831E087B3B00119E45 /* SBConnectionString.m in Sources */,
-				6993F9841E087B3B00119E45 /* AppDelegate.swift in Sources */,
-				6993F9851E087B3B00119E45 /* NavigationControllerDelegate.swift in Sources */,
-				6993F9861E087B3B00119E45 /* SBRegistrationParser.m in Sources */,
-				6993F9871E087B3B00119E45 /* Swarm.swift in Sources */,
-				6993F9881E087B3B00119E45 /* FadeOutTransitionAnimator.swift in Sources */,
-				6993F9DD1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */,
-				6993F9891E087B3B00119E45 /* SBRegistration.m in Sources */,
-				6993F98A1E087B3B00119E45 /* SwarmsView.swift in Sources */,
-				6993F98B1E087B3B00119E45 /* SlideBackTransitionAnimator.swift in Sources */,
-				6993F98C1E087B3B00119E45 /* SBNotificationHub.m in Sources */,
-				6993F98D1E087B3B00119E45 /* UIColor+Additions.swift in Sources */,
-				6993F98E1E087B3B00119E45 /* SlideOverTransitionAnimator.swift in Sources */,
+				2CA145791E1D595100CF1424 /* SwarmDataManager.swift in Sources */,
+				2CA1457A1E1D595100CF1424 /* UIFont+Additions.swift in Sources */,
+				2CA1457B1E1D595100CF1424 /* SBLocalStorage.m in Sources */,
+				2CA1457C1E1D595100CF1424 /* SBStaticHandlerResponse.m in Sources */,
+				2CA1457D1E1D595100CF1424 /* SwarmsViewController.swift in Sources */,
+				2CA1457E1E1D595100CF1424 /* PushTransitionAnimator.swift in Sources */,
+				2CA1457F1E1D595100CF1424 /* SBNotificationHubHelper.m in Sources */,
+				2CA145801E1D595100CF1424 /* Tracking.swift in Sources */,
+				2CA145811E1D595100CF1424 /* User.swift in Sources */,
+				2CA145821E1D595100CF1424 /* SBStoredRegistrationEntry.m in Sources */,
+				2CA145831E1D595100CF1424 /* SBURLConnection.m in Sources */,
+				2CA145841E1D595100CF1424 /* Configuration.swift in Sources */,
+				2CA145851E1D595100CF1424 /* SBTemplateRegistration.m in Sources */,
+				2CA145861E1D595100CF1424 /* SBTokenProvider.m in Sources */,
+				2CA145871E1D595100CF1424 /* ViewController.swift in Sources */,
+				2CA145881E1D595100CF1424 /* SwarmCell.swift in Sources */,
+				2CA145891E1D595100CF1424 /* PopTransitionAnimator.swift in Sources */,
+				2CA1458A1E1D595100CF1424 /* FadeInTransitionAnimator.swift in Sources */,
+				2CA1458B1E1D595100CF1424 /* SBConnectionString.m in Sources */,
+				2CA1458C1E1D595100CF1424 /* AppDelegate.swift in Sources */,
+				2CA1458D1E1D595100CF1424 /* NavigationControllerDelegate.swift in Sources */,
+				2CA1458E1E1D595100CF1424 /* SBRegistrationParser.m in Sources */,
+				2CA1458F1E1D595100CF1424 /* Swarm.swift in Sources */,
+				2CA145901E1D595100CF1424 /* FadeOutTransitionAnimator.swift in Sources */,
+				2CA145911E1D595100CF1424 /* SwarmsViewViewModel.swift in Sources */,
+				2CA145921E1D595100CF1424 /* SBRegistration.m in Sources */,
+				2CA145931E1D595100CF1424 /* SwarmsView.swift in Sources */,
+				2CA145941E1D595100CF1424 /* SlideBackTransitionAnimator.swift in Sources */,
+				2CA145951E1D595100CF1424 /* SBNotificationHub.m in Sources */,
+				2CA145961E1D595100CF1424 /* UIColor+Additions.swift in Sources */,
+				2CA145971E1D595100CF1424 /* SlideOverTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6993F9A21E087B4500119E45 /* Sources */ = {
+		2CA145AE1E1D59EF00CF1424 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6993F9A31E087B4500119E45 /* SwarmDataManager.swift in Sources */,
-				6993F9A41E087B4500119E45 /* UIFont+Additions.swift in Sources */,
-				6993F9A51E087B4500119E45 /* SBLocalStorage.m in Sources */,
-				6993F9A61E087B4500119E45 /* SBStaticHandlerResponse.m in Sources */,
-				6993F9A71E087B4500119E45 /* SwarmsViewController.swift in Sources */,
-				6993F9A81E087B4500119E45 /* PushTransitionAnimator.swift in Sources */,
-				6993F9A91E087B4500119E45 /* SBNotificationHubHelper.m in Sources */,
-				2CA145611E1D4C4500CF1424 /* Tracking.swift in Sources */,
-				6993F9AA1E087B4500119E45 /* User.swift in Sources */,
-				6993F9AB1E087B4500119E45 /* SBStoredRegistrationEntry.m in Sources */,
-				6993F9AC1E087B4500119E45 /* SBURLConnection.m in Sources */,
-				6993F9AD1E087B4500119E45 /* Configuration.swift in Sources */,
-				6993F9AE1E087B4500119E45 /* SBTemplateRegistration.m in Sources */,
-				6993F9AF1E087B4500119E45 /* SBTokenProvider.m in Sources */,
-				6993F9B01E087B4500119E45 /* ViewController.swift in Sources */,
-				6993F9B11E087B4500119E45 /* SwarmCell.swift in Sources */,
-				6993F9B21E087B4500119E45 /* PopTransitionAnimator.swift in Sources */,
-				6993F9B31E087B4500119E45 /* FadeInTransitionAnimator.swift in Sources */,
-				6993F9B41E087B4500119E45 /* SBConnectionString.m in Sources */,
-				6993F9B51E087B4500119E45 /* AppDelegate.swift in Sources */,
-				6993F9B61E087B4500119E45 /* NavigationControllerDelegate.swift in Sources */,
-				6993F9B71E087B4500119E45 /* SBRegistrationParser.m in Sources */,
-				6993F9B81E087B4500119E45 /* Swarm.swift in Sources */,
-				6993F9B91E087B4500119E45 /* FadeOutTransitionAnimator.swift in Sources */,
-				6993F9DE1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */,
-				6993F9BA1E087B4500119E45 /* SBRegistration.m in Sources */,
-				6993F9BB1E087B4500119E45 /* SwarmsView.swift in Sources */,
-				6993F9BC1E087B4500119E45 /* SlideBackTransitionAnimator.swift in Sources */,
-				6993F9BD1E087B4500119E45 /* SBNotificationHub.m in Sources */,
-				6993F9BE1E087B4500119E45 /* UIColor+Additions.swift in Sources */,
-				6993F9BF1E087B4500119E45 /* SlideOverTransitionAnimator.swift in Sources */,
+				2CA145AF1E1D59EF00CF1424 /* SwarmDataManager.swift in Sources */,
+				2CA145B01E1D59EF00CF1424 /* UIFont+Additions.swift in Sources */,
+				2CA145B11E1D59EF00CF1424 /* SBLocalStorage.m in Sources */,
+				2CA145B21E1D59EF00CF1424 /* SBStaticHandlerResponse.m in Sources */,
+				2CA145B31E1D59EF00CF1424 /* SwarmsViewController.swift in Sources */,
+				2CA145B41E1D59EF00CF1424 /* PushTransitionAnimator.swift in Sources */,
+				2CA145B51E1D59EF00CF1424 /* SBNotificationHubHelper.m in Sources */,
+				2CA145B61E1D59EF00CF1424 /* Tracking.swift in Sources */,
+				2CA145B71E1D59EF00CF1424 /* User.swift in Sources */,
+				2CA145B81E1D59EF00CF1424 /* SBStoredRegistrationEntry.m in Sources */,
+				2CA145B91E1D59EF00CF1424 /* SBURLConnection.m in Sources */,
+				2CA145BA1E1D59EF00CF1424 /* Configuration.swift in Sources */,
+				2CA145BB1E1D59EF00CF1424 /* SBTemplateRegistration.m in Sources */,
+				2CA145BC1E1D59EF00CF1424 /* SBTokenProvider.m in Sources */,
+				2CA145BD1E1D59EF00CF1424 /* ViewController.swift in Sources */,
+				2CA145BE1E1D59EF00CF1424 /* SwarmCell.swift in Sources */,
+				2CA145BF1E1D59EF00CF1424 /* PopTransitionAnimator.swift in Sources */,
+				2CA145C01E1D59EF00CF1424 /* FadeInTransitionAnimator.swift in Sources */,
+				2CA145C11E1D59EF00CF1424 /* SBConnectionString.m in Sources */,
+				2CA145C21E1D59EF00CF1424 /* AppDelegate.swift in Sources */,
+				2CA145C31E1D59EF00CF1424 /* NavigationControllerDelegate.swift in Sources */,
+				2CA145C41E1D59EF00CF1424 /* SBRegistrationParser.m in Sources */,
+				2CA145C51E1D59EF00CF1424 /* Swarm.swift in Sources */,
+				2CA145C61E1D59EF00CF1424 /* FadeOutTransitionAnimator.swift in Sources */,
+				2CA145C71E1D59EF00CF1424 /* SwarmsViewViewModel.swift in Sources */,
+				2CA145C81E1D59EF00CF1424 /* SBRegistration.m in Sources */,
+				2CA145C91E1D59EF00CF1424 /* SwarmsView.swift in Sources */,
+				2CA145CA1E1D59EF00CF1424 /* SlideBackTransitionAnimator.swift in Sources */,
+				2CA145CB1E1D59EF00CF1424 /* SBNotificationHub.m in Sources */,
+				2CA145CC1E1D59EF00CF1424 /* UIColor+Additions.swift in Sources */,
+				2CA145CD1E1D59EF00CF1424 /* SlideOverTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,64 +896,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6993F99C1E087B3B00119E45 /* Debug */ = {
+		2CA145A71E1D595100CF1424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1184F96CF9385C0194F506C /* Pods-SwarmAppQA.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppQA-Info.plist";
+				INFOPLIST_FILE = "SwarmApp/SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DQA";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmAppQA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6993F99D1E087B3B00119E45 /* Release */ = {
+		2CA145A81E1D595100CF1424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBCCE7FC844D4B8A307CDFC /* Pods-SwarmAppQA.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppQA-Info.plist";
+				INFOPLIST_FILE = "SwarmApp/SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DQA";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmAppQA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		6993F9CD1E087B4500119E45 /* Debug */ = {
+		2CA145DE1E1D59EF00CF1424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A557B2D25BC840A1D73DBE1E /* Pods-SwarmAppDEV.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppDEV-Info.plist";
+				INFOPLIST_FILE = "SwarmApp/SwarmAppDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmAppDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6993F9CE1E087B4500119E45 /* Release */ = {
+		2CA145DF1E1D59EF00CF1424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5210571E0C44E458066B422 /* Pods-SwarmAppDEV.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
-				INFOPLIST_FILE = "SwarmAppDEV-Info.plist";
+				INFOPLIST_FILE = "SwarmApp/SwarmAppDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.SwarmAppDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = SwarmApp/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
@@ -860,6 +986,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -910,6 +1037,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -939,6 +1067,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = SwarmApp/Info.plist;
@@ -956,6 +1085,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E1C9711714D4A917E9FF3AB /* Pods-SwarmApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = SwarmApp/Info.plist;
@@ -972,20 +1102,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6993F99B1E087B3B00119E45 /* Build configuration list for PBXNativeTarget "SwarmAppQA" */ = {
+		2CA145A61E1D595100CF1424 /* Build configuration list for PBXNativeTarget "SwarmAppQA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6993F99C1E087B3B00119E45 /* Debug */,
-				6993F99D1E087B3B00119E45 /* Release */,
+				2CA145A71E1D595100CF1424 /* Debug */,
+				2CA145A81E1D595100CF1424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6993F9CC1E087B4500119E45 /* Build configuration list for PBXNativeTarget "SwarmAppDEV" */ = {
+		2CA145DD1E1D59EF00CF1424 /* Build configuration list for PBXNativeTarget "SwarmAppDEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6993F9CD1E087B4500119E45 /* Debug */,
-				6993F9CE1E087B4500119E45 /* Release */,
+				2CA145DE1E1D59EF00CF1424 /* Debug */,
+				2CA145DF1E1D59EF00CF1424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

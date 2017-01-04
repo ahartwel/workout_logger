@@ -59,6 +59,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SwarmAppDEV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SwarmAppQA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReachabilitySwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -122,6 +132,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8FB36F33CD493FEAC2D7622C71B991E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>977004231D12E8D7F7A0AB6346D27331</key>
 		<dict>
 			<key>primary</key>
@@ -133,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>98CC12EEDCA0ADE298C62268125E8304</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>99EF64CCA1068367F4F1ED1068E0B013</key>
 		<dict>
 			<key>primary</key>
 			<true/>
