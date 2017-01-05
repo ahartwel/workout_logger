@@ -18,7 +18,7 @@ protocol SwarmViewDelegate {
 class SwarmsView: UIView {
     
     var delegate : SwarmViewDelegate?
-    var viewModel: SwarmViewModelReadDelegate?
+    weak var viewModel: SwarmViewModelReadDelegate?
     
     
     lazy fileprivate var swarmImage : UIImageView = {
@@ -59,13 +59,12 @@ class SwarmsView: UIView {
     func setupView() {
         self.addSubview(self.swarmImage) //use of self ? (I personally like it, makes things clear)
         self.addSubview(self.swarmsTable)
-        self.setNeedsUpdateConstraints();
+        self.setUpConstraints();
+        //self.setNeedsUpdateConstraints();
     }
     
-  
     
-    override func updateConstraints() { //Constraints should be updated in update Constraints (then you can make use of setNeedsUpdateConstraints)
-        
+    func setUpConstraints() {
         swarmImage.snp.remakeConstraints { (make) in
             make.left.equalTo(self)
             make.right.equalTo(self)
@@ -80,6 +79,12 @@ class SwarmsView: UIView {
             make.top.equalTo(swarmImage.snp.bottom)
         }
         
+    }
+  
+    
+    override func updateConstraints() { //Constraints should be updated in update Constraints (then you can make use of setNeedsUpdateConstraints)
+        
+      
         super.updateConstraints();
     }
     

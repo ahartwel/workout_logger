@@ -11,7 +11,7 @@ import Dollar
 import SWRMHelpers
 
 
-protocol SwarmViewModelReadDelegate {
+protocol SwarmViewModelReadDelegate: class {
     func getCurrentState() -> SwarmsViewState
     func getSwarms() -> [Swarm];
     func getTheSwarm() -> Swarm?;

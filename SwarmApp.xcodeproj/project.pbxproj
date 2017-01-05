@@ -43,10 +43,8 @@
 		2CA145971E1D595100CF1424 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
 		2CA145991E1D595100CF1424 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
 		2CA1459B1E1D595100CF1424 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
-		2CA1459C1E1D595100CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		2CA1459D1E1D595100CF1424 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
 		2CA1459E1E1D595100CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
-		2CA1459F1E1D595100CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
 		2CA145A01E1D595100CF1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
 		2CA145A11E1D595100CF1424 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
 		2CA145A21E1D595100CF1424 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
@@ -85,17 +83,15 @@
 		2CA145CD1E1D59EF00CF1424 /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
 		2CA145CF1E1D59EF00CF1424 /* Pods_SwarmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045247FA8EF440CBC655C48 /* Pods_SwarmApp.framework */; };
 		2CA145D11E1D59EF00CF1424 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912D1DE121A600E5FE40 /* SF-UI-Text-Medium.otf */; };
-		2CA145D21E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145651E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		2CA145D31E1D59EF00CF1424 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912C1DE121A600E5FE40 /* SF-UI-Text-Light.otf */; };
 		2CA145D41E1D59EF00CF1424 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145721E1D4E6C00CF1424 /* setup.sh */; };
-		2CA145D51E1D59EF00CF1424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
 		2CA145D61E1D59EF00CF1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
 		2CA145D71E1D59EF00CF1424 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912B1DE121A600E5FE40 /* SF-UI-Text-Bold.otf */; };
-		2CA145D81E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145671E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		2CA145D91E1D59EF00CF1424 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7965912E1DE121A600E5FE40 /* SF-UI-Text-Regular.otf */; };
 		2CA145DA1E1D59EF00CF1424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
 		6993F96E1E087B3200119E45 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F96D1E087B3200119E45 /* Configuration.swift */; };
 		6993F9DC1E0894B500119E45 /* SwarmsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */; };
+		69A532CE1E1EAA08006833DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA145631E1D4D3800CF1424 /* GoogleService-Info.plist */; };
 		79645F221E0307DC00E724BE /* FadeInTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */; };
 		79645F231E0307DC00E724BE /* FadeOutTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */; };
 		79645F241E0307DC00E724BE /* SlideOverTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */; };
@@ -105,7 +101,6 @@
 		796590E01DE11D6500E5FE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590DF1DE11D6500E5FE40 /* AppDelegate.swift */; };
 		796590E51DE11D6500E5FE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E31DE11D6500E5FE40 /* Main.storyboard */; };
 		796590E71DE11D6500E5FE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796590E61DE11D6500E5FE40 /* Assets.xcassets */; };
-		796590EA1DE11D6500E5FE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */; };
 		796590F71DE11E0000E5FE40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F21DE11E0000E5FE40 /* ViewController.swift */; };
 		796590FA1DE11E4600E5FE40 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */; };
 		796590FB1DE11E4600E5FE40 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796590F91DE11E4600E5FE40 /* UIFont+Additions.swift */; };
@@ -150,9 +145,12 @@
 		4FBCCE7FC844D4B8A307CDFC /* Pods-SwarmAppQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmAppQA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmAppQA/Pods-SwarmAppQA.release.xcconfig"; sourceTree = "<group>"; };
 		67C3F13D63E47099A758CEA6 /* Pods-SwarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmApp/Pods-SwarmApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6993F96D1E087B3200119E45 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppQA-Info.plist"; sourceTree = "<absolute>"; };
-		6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppDEV-Info.plist"; path = "/Users/ahartwel/Documents/Swarm/base_ios/swarm-ios-framework/SwarmApp/SwarmAppDEV-Info.plist"; sourceTree = "<absolute>"; };
+		6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppQA-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmApp/SwarmAppQA-Info.plist"; sourceTree = "<absolute>"; };
+		6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwarmAppDEV-Info.plist"; path = "/Users/alexhartwell/Documents/SWARMBasicApp/SwarmApp/SwarmApp/SwarmAppDEV-Info.plist"; sourceTree = "<absolute>"; };
 		6993F9DB1E0894B500119E45 /* SwarmsViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwarmsViewViewModel.swift; path = SwarmApp/ViewModels/SwarmsViewViewModel.swift; sourceTree = "<group>"; };
+		69A532CF1E1EAEF2006833DD /* SwarmApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwarmApp.entitlements; sourceTree = "<group>"; };
+		69A532D01E1EAF16006833DD /* SwarmAppQA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwarmAppQA.entitlements; sourceTree = "<group>"; };
+		69A532D11E1EAF27006833DD /* SwarmAppDEV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwarmAppDEV.entitlements; sourceTree = "<group>"; };
 		79645F1E1E0307DC00E724BE /* FadeInTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransitionAnimator.swift; sourceTree = "<group>"; };
 		79645F1F1E0307DC00E724BE /* FadeOutTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransitionAnimator.swift; sourceTree = "<group>"; };
 		79645F201E0307DC00E724BE /* SlideOverTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		796590DF1DE11D6500E5FE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		796590E41DE11D6500E5FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		796590E61DE11D6500E5FE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		796590E91DE11D6500E5FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796590EB1DE11D6500E5FE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796590F21DE11E0000E5FE40 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		796590F81DE11E4600E5FE40 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
@@ -284,6 +281,8 @@
 		796590D31DE11D6500E5FE40 = {
 			isa = PBXGroup;
 			children = (
+				69A532D11E1EAF27006833DD /* SwarmAppDEV.entitlements */,
+				69A532D01E1EAF16006833DD /* SwarmAppQA.entitlements */,
 				796590DE1DE11D6500E5FE40 /* SwarmApp */,
 				796590DD1DE11D6500E5FE40 /* Products */,
 				FF95182022D81685952AD85E /* Pods */,
@@ -305,6 +304,7 @@
 		796590DE1DE11D6500E5FE40 /* SwarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				69A532CF1E1EAEF2006833DD /* SwarmApp.entitlements */,
 				2CA145621E1D4D3800CF1424 /* dev */,
 				2CA145641E1D4D3800CF1424 /* prod */,
 				2CA145661E1D4D3800CF1424 /* qa */,
@@ -320,7 +320,6 @@
 				796590F51DE11E0000E5FE40 /* Transitions */,
 				796590F61DE11E0000E5FE40 /* Views */,
 				796590E61DE11D6500E5FE40 /* Assets.xcassets */,
-				796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */,
 				796590EB1DE11D6500E5FE40 /* Info.plist */,
 				6993F99F1E087B3B00119E45 /* SwarmAppQA-Info.plist */,
 				6993F9D01E087B4500119E45 /* SwarmAppDEV-Info.plist */,
@@ -537,14 +536,29 @@
 				TargetAttributes = {
 					2CA145761E1D595100CF1424 = {
 						DevelopmentTeam = 49E6AM57U3;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					2CA145AC1E1D59EF00CF1424 = {
 						DevelopmentTeam = 49E6AM57U3;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					796590DB1DE11D6500E5FE40 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 49E6AM57U3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -574,10 +588,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA1459B1E1D595100CF1424 /* SF-UI-Text-Medium.otf in Resources */,
-				2CA1459C1E1D595100CF1424 /* GoogleService-Info.plist in Resources */,
 				2CA1459D1E1D595100CF1424 /* SF-UI-Text-Light.otf in Resources */,
 				2CA1459E1E1D595100CF1424 /* setup.sh in Resources */,
-				2CA1459F1E1D595100CF1424 /* LaunchScreen.storyboard in Resources */,
 				2CA145A01E1D595100CF1424 /* Assets.xcassets in Resources */,
 				2CA145A11E1D595100CF1424 /* SF-UI-Text-Bold.otf in Resources */,
 				2CA145AB1E1D597300CF1424 /* GoogleService-Info.plist in Resources */,
@@ -591,13 +603,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA145D11E1D59EF00CF1424 /* SF-UI-Text-Medium.otf in Resources */,
-				2CA145D21E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */,
 				2CA145D31E1D59EF00CF1424 /* SF-UI-Text-Light.otf in Resources */,
+				69A532CE1E1EAA08006833DD /* GoogleService-Info.plist in Resources */,
 				2CA145D41E1D59EF00CF1424 /* setup.sh in Resources */,
-				2CA145D51E1D59EF00CF1424 /* LaunchScreen.storyboard in Resources */,
 				2CA145D61E1D59EF00CF1424 /* Assets.xcassets in Resources */,
 				2CA145D71E1D59EF00CF1424 /* SF-UI-Text-Bold.otf in Resources */,
-				2CA145D81E1D59EF00CF1424 /* GoogleService-Info.plist in Resources */,
 				2CA145D91E1D59EF00CF1424 /* SF-UI-Text-Regular.otf in Resources */,
 				2CA145DA1E1D59EF00CF1424 /* Main.storyboard in Resources */,
 			);
@@ -611,7 +621,6 @@
 				2CA145711E1D4D4B00CF1424 /* GoogleService-Info.plist in Resources */,
 				796591301DE121A600E5FE40 /* SF-UI-Text-Light.otf in Resources */,
 				2CA145731E1D4E6C00CF1424 /* setup.sh in Resources */,
-				796590EA1DE11D6500E5FE40 /* LaunchScreen.storyboard in Resources */,
 				796590E71DE11D6500E5FE40 /* Assets.xcassets in Resources */,
 				7965912F1DE121A600E5FE40 /* SF-UI-Text-Bold.otf in Resources */,
 				796591321DE121A600E5FE40 /* SF-UI-Text-Regular.otf in Resources */,
@@ -885,14 +894,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		796590E81DE11D6500E5FE40 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				796590E91DE11D6500E5FE40 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -902,6 +903,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmAppQA.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = "SwarmApp/SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -920,6 +922,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmAppQA.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = "SwarmApp/SwarmAppQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -938,6 +941,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmAppDEV.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = "SwarmApp/SwarmAppDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -956,6 +960,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmAppDEV.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = "SwarmApp/SwarmAppDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -1069,6 +1074,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmApp/SwarmApp.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = SwarmApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -1087,6 +1093,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwarmApp/SwarmApp.entitlements;
 				DEVELOPMENT_TEAM = 49E6AM57U3;
 				INFOPLIST_FILE = SwarmApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;

@@ -27,8 +27,29 @@ class SwarmDataManager {
     }
     
     
-    func getSwarms(callback: ([Swarm]) -> ()) {
+    func getSwarms(callback: @escaping ([Swarm]) -> ()) {
+        //TODO add example of request with spine
         callback([]);
+        
+        let networkClient = HTTPClient()
+        let spine = Spine(baseURL: Configuration.shared.serverUrl, networkClient: networkClient)
+        spine.registerResource(Swarm.self)
+        let query = Query(resourceType: Swarm.self)
+        spine.find(query).onSuccess { resources, meta, jsonapi in
+            guard let swarms = resources.resources as? [Swarm] else {
+                print("there was an error getting the Swarms")
+                callback([]);
+                return
+            }
+            callback(swarms);
+            
+            }
+            .onFailure { (error) in
+                print("ERROR GETTING swarms: \(error)")
+                callback([]);
+        }
+        
+        
     }
     
 
