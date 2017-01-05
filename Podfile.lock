@@ -99,7 +99,7 @@ CHECKOUT OPTIONS:
     :commit: bd42dae6fc9ad1c48f4914ad4c9150008dc4e114
     :git: https://github.com/swarmnyc/Spine.git
   SWRMHelpers:
-    :commit: 80fd5a794bf7a3d2996dd903cf7d62b2252cf478
+    :commit: dcb21fd856fbd83242186bd7830da12d3413271f
     :git: https://github.com/swarmnyc/swarm-ios-framework.git
 
 SPEC CHECKSUMS:
@@ -126,7 +126,7 @@ SPEC CHECKSUMS:
   PaperTrailLumberjack: afd1a729641ebb2e10975db30a5f8ebc890cccd6
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
-  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
   Spine: bac602009a38593e77dba85927e0396250acf0d5
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
