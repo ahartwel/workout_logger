@@ -54,17 +54,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmApp.xcscheme</key>
+		<key>Pods-WorkoutLogger.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmAppDEV.xcscheme</key>
+		<key>Pods-WorkoutLoggerDEV.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmAppQA.xcscheme</key>
+		<key>Pods-WorkoutLoggerQA.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -106,107 +106,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>00103D6C821BE85971C563025527BA5D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0E17C331F60E0C827C3BF7930422445D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4551A02DCD158A5143D803E0FE76C4F6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4E9CB5FA53E7C59108A3E80AA40371DE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8FB36F33CD493FEAC2D7622C71B991E1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>977004231D12E8D7F7A0AB6346D27331</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>97F915A200D31522771F9C631EA453D4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>98CC12EEDCA0ADE298C62268125E8304</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>99EF64CCA1068367F4F1ED1068E0B013</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9ADF74A92DB37BCA9991356E7AC5F6FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9F08C9DA8603B5695E7531877642DF94</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AC0D2D2B4EE7C873431AB3502859CA60</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B597EF029BE6FE511D42DBE9F0220864</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D7D6460167E9A0525598385B4C60B93C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD3D54BCFA9DF3025B782A01D3510F8E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EFE34190CF46A0EDBF36E9FC9F3D81FF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F9DD5488181C8EDDD848675DC26E5100</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FCF0FE7D72C546FC02F342B405FEDE57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FEA5D180332DF2C785D79A548517796D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

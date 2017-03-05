@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD3D54BCFA9DF3025B782A01D3510F8E"
-               BuildableName = "Pods_SwarmApp.framework"
-               BlueprintName = "Pods-SwarmApp"
+               BuildableName = "Pods_WorkoutLogger.framework"
+               BlueprintName = "Pods-WorkoutLogger"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD3D54BCFA9DF3025B782A01D3510F8E"
-            BuildableName = "Pods_SwarmApp.framework"
-            BlueprintName = "Pods-SwarmApp"
+            BuildableName = "Pods_WorkoutLogger.framework"
+            BlueprintName = "Pods-WorkoutLogger"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

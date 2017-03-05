@@ -54,17 +54,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmApp.xcscheme</key>
+		<key>Pods-WorkoutLogger.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmAppDEV.xcscheme</key>
+		<key>Pods-WorkoutLoggerDEV.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SwarmAppQA.xcscheme</key>
+		<key>Pods-WorkoutLoggerQA.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -21,20 +21,20 @@ def swarm_pods
     pod 'SWRMHelpers', :git => 'https://github.com/swarmnyc/swarm-ios-framework.git', :branch => 'cocoapod'
 end
 
-target 'SwarmApp' do
+target 'WorkoutLogger' do
     swarm_pods
 end
 
-target 'SwarmAppDEV' do
+target 'WorkoutLoggerDEV' do
     swarm_pods
 end
 
-target 'SwarmAppQA' do
+target 'WorkoutLoggerQA' do
     swarm_pods
 end
 
 # uncomment for Prod target
-#target 'SwarmApp Prod' do
+#target 'WorkoutLogger Prod' do
 #    swarm_pods
 #end
 

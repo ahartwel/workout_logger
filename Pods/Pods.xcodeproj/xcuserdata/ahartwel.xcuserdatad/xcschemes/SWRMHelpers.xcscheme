@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EFE34190CF46A0EDBF36E9FC9F3D81FF'
+               BlueprintIdentifier = '2D1EC011042F4E1872096328CD518C43'
                BlueprintName = 'SWRMHelpers'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SWRMHelpers.framework'>

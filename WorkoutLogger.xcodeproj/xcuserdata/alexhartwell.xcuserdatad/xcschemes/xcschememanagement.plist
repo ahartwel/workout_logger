@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WorkoutLogger.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WorkoutLoggerDEV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>WorkoutLoggerQA.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2CA145761E1D595100CF1424</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CA145AC1E1D59EF00CF1424</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6993F96F1E087B3B00119E45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6993F9A01E087B4500119E45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>796590DB1DE11D6500E5FE40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
